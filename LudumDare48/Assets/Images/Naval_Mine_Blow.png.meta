@@ -1,0 +1,1764 @@
+fileFormatVersion: 2
+guid: 657cb721eb11cac489cb431ee8744e33
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8535356325836455083
+    second: Naval_Mine_Blow_0
+  - first:
+      213: 71249325360793952
+    second: Naval_Mine_Blow_1
+  - first:
+      213: 5702848577977498122
+    second: Naval_Mine_Blow_2
+  - first:
+      213: -2240439033310353505
+    second: Naval_Mine_Blow_3
+  - first:
+      213: 8185866356984384189
+    second: Naval_Mine_Blow_4
+  - first:
+      213: 8775583796142904624
+    second: Naval_Mine_Blow_5
+  - first:
+      213: -5060359472731884521
+    second: Naval_Mine_Blow_6
+  - first:
+      213: -1587783654519875989
+    second: Naval_Mine_Blow_7
+  - first:
+      213: -506641099698155750
+    second: Naval_Mine_Blow_8
+  - first:
+      213: 8830234958319362217
+    second: Naval_Mine_Blow_9
+  - first:
+      213: -5639048499183893627
+    second: Naval_Mine_Blow_10
+  - first:
+      213: -2757647412536997218
+    second: Naval_Mine_Blow_11
+  - first:
+      213: -7618792368989840699
+    second: Naval_Mine_Blow_12
+  - first:
+      213: -8005105526814112561
+    second: Naval_Mine_Blow_13
+  - first:
+      213: 9100734233890946049
+    second: Naval_Mine_Blow_14
+  - first:
+      213: 8359081608301575130
+    second: Naval_Mine_Blow_15
+  - first:
+      213: -8250552074887396003
+    second: Naval_Mine_Blow_16
+  - first:
+      213: -4445797507696855396
+    second: Naval_Mine_Blow_17
+  - first:
+      213: -8922016728658696670
+    second: Naval_Mine_Blow_18
+  - first:
+      213: -6631245561836277830
+    second: Naval_Mine_Blow_19
+  - first:
+      213: -5932540082575337621
+    second: Naval_Mine_Blow_20
+  - first:
+      213: 6734176090546323175
+    second: Naval_Mine_Blow_21
+  - first:
+      213: -718515303885972409
+    second: Naval_Mine_Blow_22
+  - first:
+      213: 2099654545853747710
+    second: Naval_Mine_Blow_23
+  - first:
+      213: 4415657811711224367
+    second: Naval_Mine_Blow_24
+  - first:
+      213: -1149877907029102672
+    second: Naval_Mine_Blow_25
+  - first:
+      213: 1813383651828015534
+    second: Naval_Mine_Blow_26
+  - first:
+      213: -2050245381692312846
+    second: Naval_Mine_Blow_27
+  - first:
+      213: -4685848965166399314
+    second: Naval_Mine_Blow_28
+  - first:
+      213: -8021931935924398040
+    second: Naval_Mine_Blow_29
+  - first:
+      213: 848736095132761778
+    second: Naval_Mine_Blow_30
+  - first:
+      213: -1231565681627750109
+    second: Naval_Mine_Blow_31
+  - first:
+      213: -4603744727131066655
+    second: Naval_Mine_Blow_32
+  - first:
+      213: -7886305229865673801
+    second: Naval_Mine_Blow_33
+  - first:
+      213: -651129796460694993
+    second: Naval_Mine_Blow_34
+  - first:
+      213: -7233272306876626215
+    second: Naval_Mine_Blow_35
+  - first:
+      213: -7424085944945445046
+    second: Naval_Mine_Blow_36
+  - first:
+      213: -3768633932970012140
+    second: Naval_Mine_Blow_37
+  - first:
+      213: 7975698879285903499
+    second: Naval_Mine_Blow_38
+  - first:
+      213: 367713949904611351
+    second: Naval_Mine_Blow_39
+  - first:
+      213: 4454300706307590238
+    second: Naval_Mine_Blow_40
+  - first:
+      213: -3808705615086373068
+    second: Naval_Mine_Blow_41
+  - first:
+      213: 1857588927935263350
+    second: Naval_Mine_Blow_42
+  - first:
+      213: 2782176581621832487
+    second: Naval_Mine_Blow_43
+  - first:
+      213: -5865798734826659152
+    second: Naval_Mine_Blow_44
+  - first:
+      213: 482746528876590326
+    second: Naval_Mine_Blow_45
+  - first:
+      213: 5960715241669860595
+    second: Naval_Mine_Blow_46
+  - first:
+      213: 3794346335719638049
+    second: Naval_Mine_Blow_47
+  - first:
+      213: 6008741894480819686
+    second: Naval_Mine_Blow_48
+  - first:
+      213: -3336988048878240739
+    second: Naval_Mine_Blow_49
+  - first:
+      213: 1687128342316535083
+    second: Naval_Mine_Blow_50
+  - first:
+      213: 6072011652373813247
+    second: Naval_Mine_Blow_51
+  - first:
+      213: 7439867172367883665
+    second: Naval_Mine_Blow_52
+  - first:
+      213: -4589608331555059393
+    second: Naval_Mine_Blow_53
+  - first:
+      213: 5604142838434473346
+    second: Naval_Mine_Blow_54
+  - first:
+      213: 1489514375602142953
+    second: Naval_Mine_Blow_55
+  - first:
+      213: 7199019875413726001
+    second: Naval_Mine_Blow_56
+  - first:
+      213: 980462485303208057
+    second: Naval_Mine_Blow_57
+  - first:
+      213: 5984782948144686657
+    second: Naval_Mine_Blow_58
+  - first:
+      213: -1145506058206845632
+    second: Naval_Mine_Blow_59
+  - first:
+      213: -1385309259203964074
+    second: Naval_Mine_Blow_60
+  - first:
+      213: 7709271003603740561
+    second: Naval_Mine_Blow_61
+  - first:
+      213: 7315935542694671844
+    second: Naval_Mine_Blow_62
+  - first:
+      213: 6722130939063778025
+    second: Naval_Mine_Blow_63
+  - first:
+      213: 2707239162903183101
+    second: Naval_Mine_Blow_64
+  - first:
+      213: 2880695983448297668
+    second: Naval_Mine_Blow_65
+  - first:
+      213: -5909773098962881998
+    second: Naval_Mine_Blow_66
+  - first:
+      213: -626048998458191072
+    second: Naval_Mine_Blow_67
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 726
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5538227d4a25c8980800000000000000
+      internalID: -8535356325836455083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 726
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069cd9842e02df000800000000000000
+      internalID: 71249325360793952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 726
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ab0321196942f40800000000000000
+      internalID: 5702848577977498122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 726
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97ed9ec19c58e0e0800000000000000
+      internalID: -2240439033310353505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 726
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba00e2c41a0a9170800000000000000
+      internalID: 8185866356984384189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_5
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 726
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03595c1b7f229c970800000000000000
+      internalID: 8775583796142904624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_6
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 726
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7147808deddf5c9b0800000000000000
+      internalID: -5060359472731884521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_7
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 726
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66db2cbd2f07f9e0800000000000000
+      internalID: -1587783654519875989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_8
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 726
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fc0e7aa9c08f8f0800000000000000
+      internalID: -506641099698155750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_9
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 726
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0acd5f8eb4b8a70800000000000000
+      internalID: 8830234958319362217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_10
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 726
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583c1f654431eb1b0800000000000000
+      internalID: -5639048499183893627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_11
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 726
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a05f7f94edab9d0800000000000000
+      internalID: -2757647412536997218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_12
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 726
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca57ecd4bc944690800000000000000
+      internalID: -7618792368989840699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_13
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 726
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc48abcafe628e090800000000000000
+      internalID: -8005105526814112561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_14
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 726
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c7e46619d4c4e70800000000000000
+      internalID: 9100734233890946049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_15
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 726
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbf0573f6c610470800000000000000
+      internalID: 8359081608301575130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_16
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 726
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d558977e996208d80800000000000000
+      internalID: -8250552074887396003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 484
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96796ab8ba5d42c0800000000000000
+      internalID: -4445797507696855396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_18
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 484
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226a4306e01ae2480800000000000000
+      internalID: -8922016728658696670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_19
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 484
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfec5c9b4519f3a0800000000000000
+      internalID: -6631245561836277830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_20
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 484
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6794521a326bada0800000000000000
+      internalID: -5932540082575337621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 484
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee31f3a979947d50800000000000000
+      internalID: 6734176090546323175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_22
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 484
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cd13253225706f0800000000000000
+      internalID: -718515303885972409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_23
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 484
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef195ac5fa8732d10800000000000000
+      internalID: 2099654545853747710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_24
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 484
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ae9b47261974d30800000000000000
+      internalID: 4415657811711224367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_25
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 484
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfe578c220da00f0800000000000000
+      internalID: -1149877907029102672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_26
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 484
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1a5b8d2de6a2910800000000000000
+      internalID: 1813383651828015534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_27
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 484
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f238d120b01c83e0800000000000000
+      internalID: -2050245381692312846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_28
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 484
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea00020613588feb0800000000000000
+      internalID: -4685848965166399314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_29
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 484
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8285dd2086f5ca090800000000000000
+      internalID: -8021931935924398040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_30
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 484
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2beb0725bf057cb00800000000000000
+      internalID: 848736095132761778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_31
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 484
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3212405a98998eee0800000000000000
+      internalID: -1231565681627750109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_32
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 484
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee66c6ff863c10c0800000000000000
+      internalID: -4603744727131066655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_33
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 484
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb1d874d273e8290800000000000000
+      internalID: -7886305229865673801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 242
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22b94366e8b6f6f0800000000000000
+      internalID: -651129796460694993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_35
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 242
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dac2f019214e9b90800000000000000
+      internalID: -7233272306876626215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_36
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 242
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a477e85ea2958f890800000000000000
+      internalID: -7424085944945445046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_37
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 242
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412d6d0b76f13bbc0800000000000000
+      internalID: -3768633932970012140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_38
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 242
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b804157afdf5fae60800000000000000
+      internalID: 7975698879285903499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_39
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 242
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7182503a3e16a1500800000000000000
+      internalID: 367713949904611351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_40
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 242
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e584c3a74ead0dd30800000000000000
+      internalID: 4454300706307590238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_41
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 242
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437bdb62c62c42bc0800000000000000
+      internalID: -3808705615086373068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_42
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 242
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672b74cb94b77c910800000000000000
+      internalID: 1857588927935263350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_43
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 242
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bdaf14cd64c9620800000000000000
+      internalID: 2782176581621832487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_44
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 242
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2a8b6012f789ea0800000000000000
+      internalID: -5865798734826659152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_45
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 242
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4fd3a096f03b600800000000000000
+      internalID: 482746528876590326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_46
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 242
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc1dfa5ee6b8b250800000000000000
+      internalID: 5960715241669860595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_47
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 242
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124cf5793e938a430800000000000000
+      internalID: 3794346335719638049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_48
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 242
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e57987dae6536350800000000000000
+      internalID: 6008741894480819686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_49
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 242
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c73e6bc03a0b1d0800000000000000
+      internalID: -3336988048878240739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_50
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 242
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d454ed942e96710800000000000000
+      internalID: 1687128342316535083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff716cb4d6e144450800000000000000
+      internalID: 6072011652373813247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_52
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dd31176c7bf3760800000000000000
+      internalID: 7439867172367883665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_53
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39cc7b0a8f6e40c0800000000000000
+      internalID: -4589608331555059393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_54
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285af63383ae5cd40800000000000000
+      internalID: 5604142838434473346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_55
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee7a9dce61dba410800000000000000
+      internalID: 1489514375602142953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_56
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 0
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13313054f6e08e360800000000000000
+      internalID: 7199019875413726001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_57
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97828188f6d4b9d00800000000000000
+      internalID: 980462485303208057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_58
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 0
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146aaf1f1683e0350800000000000000
+      internalID: 5984782948144686657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_59
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045e5882f485a10f0800000000000000
+      internalID: -1145506058206845632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_60
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6539615819466cce0800000000000000
+      internalID: -1385309259203964074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_61
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 0
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197250fd125dcfa60800000000000000
+      internalID: 7709271003603740561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_62
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 0
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e578f55d9c678560800000000000000
+      internalID: 7315935542694671844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_63
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea3f84497ec94d50800000000000000
+      internalID: 6722130939063778025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_64
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 0
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfebed2dcab029520800000000000000
+      internalID: 2707239162903183101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_65
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 0
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0945ffbb94af720800000000000000
+      internalID: 2880695983448297668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_66
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 0
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23278258da44cfda0800000000000000
+      internalID: -5909773098962881998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naval_Mine_Blow_67
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02319eab0c3df47f0800000000000000
+      internalID: -626048998458191072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

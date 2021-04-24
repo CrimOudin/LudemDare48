@@ -1,0 +1,1380 @@
+fileFormatVersion: 2
+guid: 09a82f4b8b746274c8244034924fd814
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5194220514704123471
+    second: SS_Naval_Mine_Idle_0
+  - first:
+      213: -587910914540936578
+    second: SS_Naval_Mine_Idle_1
+  - first:
+      213: -6118556702293745127
+    second: SS_Naval_Mine_Idle_2
+  - first:
+      213: -463996857677418710
+    second: SS_Naval_Mine_Idle_3
+  - first:
+      213: 3960491135087638002
+    second: SS_Naval_Mine_Idle_4
+  - first:
+      213: -6213133151757689181
+    second: SS_Naval_Mine_Idle_5
+  - first:
+      213: 8984772141562674539
+    second: SS_Naval_Mine_Idle_6
+  - first:
+      213: 8301354300154926969
+    second: SS_Naval_Mine_Idle_7
+  - first:
+      213: 8342715501091566193
+    second: SS_Naval_Mine_Idle_8
+  - first:
+      213: 1784683233719245624
+    second: SS_Naval_Mine_Idle_9
+  - first:
+      213: -5382657892627631276
+    second: SS_Naval_Mine_Idle_10
+  - first:
+      213: -2202763077876038606
+    second: SS_Naval_Mine_Idle_11
+  - first:
+      213: 3112521178999163794
+    second: SS_Naval_Mine_Idle_12
+  - first:
+      213: -1676643699164610161
+    second: SS_Naval_Mine_Idle_13
+  - first:
+      213: 3782441770456158898
+    second: SS_Naval_Mine_Idle_14
+  - first:
+      213: 5229743485141624960
+    second: SS_Naval_Mine_Idle_15
+  - first:
+      213: -5946903295493875000
+    second: SS_Naval_Mine_Idle_16
+  - first:
+      213: 5442997890937082458
+    second: SS_Naval_Mine_Idle_17
+  - first:
+      213: -2883539074761448994
+    second: SS_Naval_Mine_Idle_18
+  - first:
+      213: -7992903458226425146
+    second: SS_Naval_Mine_Idle_19
+  - first:
+      213: 8790749327046820429
+    second: SS_Naval_Mine_Idle_20
+  - first:
+      213: -1866028224274879695
+    second: SS_Naval_Mine_Idle_21
+  - first:
+      213: 1166847184539047239
+    second: SS_Naval_Mine_Idle_22
+  - first:
+      213: -252563999741494039
+    second: SS_Naval_Mine_Idle_23
+  - first:
+      213: -9077679243437677871
+    second: SS_Naval_Mine_Idle_24
+  - first:
+      213: -3282459681728986167
+    second: SS_Naval_Mine_Idle_25
+  - first:
+      213: -7525663429988892513
+    second: SS_Naval_Mine_Idle_26
+  - first:
+      213: 1327897536505213228
+    second: SS_Naval_Mine_Idle_27
+  - first:
+      213: -646592273779485735
+    second: SS_Naval_Mine_Idle_28
+  - first:
+      213: -1730405370108297615
+    second: SS_Naval_Mine_Idle_29
+  - first:
+      213: 6976657387916751704
+    second: SS_Naval_Mine_Idle_30
+  - first:
+      213: -4722103453607729186
+    second: SS_Naval_Mine_Idle_31
+  - first:
+      213: 7803751891865198883
+    second: SS_Naval_Mine_Idle_32
+  - first:
+      213: 6594278945250650272
+    second: SS_Naval_Mine_Idle_33
+  - first:
+      213: 2872611026910120399
+    second: SS_Naval_Mine_Idle_34
+  - first:
+      213: 3241659035853567210
+    second: SS_Naval_Mine_Idle_35
+  - first:
+      213: -3401096594988850288
+    second: SS_Naval_Mine_Idle_36
+  - first:
+      213: 2999464873705202342
+    second: SS_Naval_Mine_Idle_37
+  - first:
+      213: 8960818162663084886
+    second: SS_Naval_Mine_Idle_38
+  - first:
+      213: 5993854583286864424
+    second: SS_Naval_Mine_Idle_39
+  - first:
+      213: -8406084908849072263
+    second: SS_Naval_Mine_Idle_40
+  - first:
+      213: -8066956741510495374
+    second: SS_Naval_Mine_Idle_41
+  - first:
+      213: -6694548718476607741
+    second: SS_Naval_Mine_Idle_42
+  - first:
+      213: -6465605503425497455
+    second: SS_Naval_Mine_Idle_43
+  - first:
+      213: -7476010156251601130
+    second: SS_Naval_Mine_Idle_44
+  - first:
+      213: -2892253300857425818
+    second: SS_Naval_Mine_Idle_45
+  - first:
+      213: -7309875224106806557
+    second: SS_Naval_Mine_Idle_46
+  - first:
+      213: -453651128647284115
+    second: SS_Naval_Mine_Idle_47
+  - first:
+      213: -7998617580212731094
+    second: SS_Naval_Mine_Idle_48
+  - first:
+      213: -4110946264840606220
+    second: SS_Naval_Mine_Idle_49
+  - first:
+      213: 7997149245171792721
+    second: SS_Naval_Mine_Idle_50
+  - first:
+      213: 2445105526800227763
+    second: SS_Naval_Mine_Idle_51
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 726
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9930846fb6ae7b0800000000000000
+      internalID: -5194220514704123471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 726
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72663b532257d7f0800000000000000
+      internalID: -587910914540936578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 726
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91222b5c815861ba0800000000000000
+      internalID: -6118556702293745127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 726
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f6d39f05d8f89f0800000000000000
+      internalID: -463996857677418710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 726
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f57bfa24bd76f630800000000000000
+      internalID: 3960491135087638002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 726
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae974b215486c9a0800000000000000
+      internalID: -6213133151757689181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 726
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d3badc8a250bc70800000000000000
+      internalID: 8984772141562674539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 726
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9775567e0c5543370800000000000000
+      internalID: 8301354300154926969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 726
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17235b0fb8747c370800000000000000
+      internalID: 8342715501091566193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 726
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b5e6602f774c810800000000000000
+      internalID: 1784683233719245624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 726
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4533a7a4a25fc45b0800000000000000
+      internalID: -5382657892627631276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 726
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2344ad2c6a63e61e0800000000000000
+      internalID: -2202763077876038606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 726
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b002e7585e13b20800000000000000
+      internalID: 3112521178999163794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 484
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f818568507d5bb8e0800000000000000
+      internalID: -1676643699164610161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 484
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b293afffbeed7430800000000000000
+      internalID: 3782441770456158898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 484
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088a74acdf7c39840800000000000000
+      internalID: 5229743485141624960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 484
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cadc76f5fa587da0800000000000000
+      internalID: -5946903295493875000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 484
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52518a5eb9698b40800000000000000
+      internalID: 5442997890937082458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 484
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1a2e83d7c9bf7d0800000000000000
+      internalID: -2883539074761448994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 484
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c23c6827a0831190800000000000000
+      internalID: -7992903458226425146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 484
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42412400f30ff970800000000000000
+      internalID: 8790749327046820429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 484
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b2e3777398a16e0800000000000000
+      internalID: -1866028224274879695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 484
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7455d950559713010800000000000000
+      internalID: 1166847184539047239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 484
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec3b506166be7cf0800000000000000
+      internalID: -252563999741494039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_24
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 484
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2e5fdd2da950280800000000000000
+      internalID: -9077679243437677871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_25
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 484
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c380098f4c5272d0800000000000000
+      internalID: -3282459681728986167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 242
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f904d5cabf87f8790800000000000000
+      internalID: -7525663429988892513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_27
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 242
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21728126c3ad6210800000000000000
+      internalID: 1327897536505213228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_28
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 242
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d39cd6b0c7d607f0800000000000000
+      internalID: -646592273779485735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_29
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 242
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e3445eb7d5cf7e0800000000000000
+      internalID: -1730405370108297615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_30
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 242
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853f16e2ee012d060800000000000000
+      internalID: 6976657387916751704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_31
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 242
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7e01f7de7b77eb0800000000000000
+      internalID: -4722103453607729186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_32
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 242
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32168e5effe7c4c60800000000000000
+      internalID: 7803751891865198883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_33
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 242
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8a08143c5938b50800000000000000
+      internalID: 6594278945250650272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_34
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 242
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc909dc52809dd720800000000000000
+      internalID: 2872611026910120399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_35
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 242
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4bcf2d7bfacfc20800000000000000
+      internalID: 3241659035853567210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_36
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 242
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09326e8aaa0ecc0d0800000000000000
+      internalID: -3401096594988850288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_37
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 242
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2e579296d30a920800000000000000
+      internalID: 2999464873705202342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_38
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 242
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653d66a74a83b5c70800000000000000
+      internalID: 8960818162663084886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a19289cf27e2350800000000000000
+      internalID: 5993854583286864424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_40
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97777401056975b80800000000000000
+      internalID: -8406084908849072263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_41
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27303db85996c0090800000000000000
+      internalID: -8066956741510495374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_42
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fb7a7e86f2813a0800000000000000
+      internalID: -6694548718476607741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_43
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19633860d0e8546a0800000000000000
+      internalID: -6465605503425497455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_44
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617296b5f50ef3890800000000000000
+      internalID: -7476010156251601130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_45
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66031f952f6acd7d0800000000000000
+      internalID: -2892253300857425818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_46
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e25faa863b1e8a90800000000000000
+      internalID: -7309875224106806557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_47
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a0609b3be44b9f0800000000000000
+      internalID: -453651128647284115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_48
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23c93570b33ff090800000000000000
+      internalID: -7998617580212731094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_49
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fde471272cf2f6c0800000000000000
+      internalID: -4110946264840606220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_50
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b7f362ed49bfe60800000000000000
+      internalID: 7997149245171792721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Naval_Mine_Idle_51
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd954b9582cee120800000000000000
+      internalID: 2445105526800227763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
