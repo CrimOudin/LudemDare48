@@ -1,43 +1,25 @@
 fileFormatVersion: 2
-guid: ad889392fc60f2e468e84ed31c03c693
+guid: a580cf26336d7b84988e038c5dba7e1c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1606751579036784947
-    second: Clam_0
+      213: -1310941933742619337
+    second: ClamTopBottom_0
   - first:
-      213: 1549034116965846230
-    second: Clam_1
+      213: 3953303601731900095
+    second: ClamTopBottom_1
   - first:
-      213: -1047025931521123347
-    second: Clam_2
+      213: -5231698128581622719
+    second: ClamTopBottom_2
   - first:
-      213: 8126900975262526136
-    second: Clam_3
+      213: 7662276730202491092
+    second: ClamTopBottom_3
   - first:
-      213: 4916340584289184385
-    second: Clam_4
+      213: -4637115541837111775
+    second: ClamTopBottom_4
   - first:
-      213: 3848740252552087256
-    second: Clam_5
-  - first:
-      213: 5355452314363030751
-    second: Clam_6
-  - first:
-      213: 1246406336043331269
-    second: Clam_7
-  - first:
-      213: 5879534660605692935
-    second: Clam_8
-  - first:
-      213: 2650996775488489061
-    second: Clam_9
-  - first:
-      213: -1719127486970682292
-    second: Clam_10
-  - first:
-      213: -8446763359375153052
-    second: Clam_11
+      213: -3643995023538642949
+    second: ClamTopBottom_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -151,13 +133,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Clam_0
+      name: ClamTopBottom_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
+        y: 0
         width: 130
-        height: 88
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +147,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33919c65c045c4610800000000000000
-      internalID: 1606751579036784947
+      spriteID: 7358b16c1499ecde0800000000000000
+      internalID: -1310941933742619337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clam_1
+      name: ClamTopBottom_1
       rect:
         serializedVersion: 2
         x: 130
-        y: 96
+        y: 0
         width: 130
-        height: 88
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dcc5be72564f7510800000000000000
-      internalID: 1549034116965846230
+      spriteID: fb290862ea4fcd630800000000000000
+      internalID: 3953303601731900095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clam_2
+      name: ClamTopBottom_2
       rect:
         serializedVersion: 2
         x: 260
-        y: 96
+        y: 0
         width: 130
-        height: 88
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,20 +189,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: deb9f0176773871f0800000000000000
-      internalID: -1047025931521123347
+      spriteID: 14401d155464567b0800000000000000
+      internalID: -5231698128581622719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clam_3
+      name: ClamTopBottom_3
       rect:
         serializedVersion: 2
         x: 390
-        y: 96
+        y: 0
         width: 130
-        height: 88
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,20 +210,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ba6c4bf06d88c070800000000000000
-      internalID: 8126900975262526136
+      spriteID: 4d80672f610e55a60800000000000000
+      internalID: 7662276730202491092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clam_4
+      name: ClamTopBottom_4
       rect:
         serializedVersion: 2
         x: 520
-        y: 96
+        y: 0
         width: 130
-        height: 88
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,20 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18aa469a6b95a3440800000000000000
-      internalID: 4916340584289184385
+      spriteID: 12e1b52bbf7a5afb0800000000000000
+      internalID: -4637115541837111775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clam_5
+      name: ClamTopBottom_5
       rect:
         serializedVersion: 2
         x: 650
-        y: 96
+        y: 0
         width: 130
-        height: 88
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,134 +252,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d64d124ed8796530800000000000000
-      internalID: 3848740252552087256
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clam_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1
-        width: 130
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fdce6296183625a40800000000000000
-      internalID: 5355452314363030751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clam_7
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 1
-        width: 130
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5cea8a975ff1c4110800000000000000
-      internalID: 1246406336043331269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clam_8
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 1
-        width: 130
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70ccff96f9d489150800000000000000
-      internalID: 5879534660605692935
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clam_9
-      rect:
-        serializedVersion: 2
-        x: 390
-        y: 1
-        width: 130
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56682bf858b3ac420800000000000000
-      internalID: 2650996775488489061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clam_10
-      rect:
-        serializedVersion: 2
-        x: 520
-        y: 1
-        width: 130
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c44a08fa8ae6428e0800000000000000
-      internalID: -1719127486970682292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clam_11
-      rect:
-        serializedVersion: 2
-        x: 650
-        y: 1
-        width: 130
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 468a8ae3a7117ca80800000000000000
-      internalID: -8446763359375153052
+      spriteID: bff10b235dded6dc0800000000000000
+      internalID: -3643995023538642949
       vertices: []
       indices: 
       edges: []
