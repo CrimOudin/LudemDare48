@@ -8,15 +8,18 @@ public class AnglerFish : MonoBehaviour
 	public float DetectionRadius;
     public int Damage;
 	private SpriteRenderer _spriteRenderer;
+	private Animator _animator;
 	public GameObject BaitPearl;
 	private bool _isFinished = false;
+	private bool disappering = false;
 
 	private void Start()
 	{
 		_spriteRenderer = GetComponent<SpriteRenderer>();
+		_animator = GetComponent<Animator>();
 	}
 
-	private void Update()
+	private void FixedUpdate()
 	{
 		if(Vector3.Distance(WorldManager.Instance.player.transform.position, transform.position) <= DetectionRadius)
 		{
@@ -24,40 +27,45 @@ public class AnglerFish : MonoBehaviour
 			{
 				_spriteRenderer.enabled = true;
 				BaitPearl.SetActive(false);
+				_animator.ResetTrigger("Appear");
+				_animator.SetTrigger("Appear");
+				_animator.SetBool("Appeared", true);
 			}
 		}
 		else
 		{
-			if (_spriteRenderer.enabled == true)
+			if (_spriteRenderer.enabled == true && disappering == false)
 			{
-				_spriteRenderer.enabled = false;
-				BaitPearl.SetActive(true);
+				_animator.SetBool("Appeared", false);
+				_animator.ResetTrigger("Appear");
+				disappering = true;
+				_animator.ResetTrigger("Disappear");
+				_animator.SetTrigger("Disappear");
 			}
 		}
 	}
 
+	internal void FinishDisappearing()
+	{
+		_animator.ResetTrigger("Disappear");
+		disappering = false;
+		_spriteRenderer.enabled = false;
+		BaitPearl.SetActive(true);
+	}
 	private void OnTriggerEnter2D(Collider2D collision)
     {
 		if (!_isFinished)
 		{
 			if (collision.transform.CompareTag("Player"))
 			{
+				_animator.SetBool("Bite",true);
 				UiManager.Instance.SubtractHealth(Damage);
-				StartCoroutine(Finish());
 			}
 		}
     }
 
-	private IEnumerator Finish()
+	internal void Finish()
 	{
-		var fadeCount = 5;
-		for(int i = 1; i < fadeCount; i++)
-		{
-			var color = _spriteRenderer.color;
-			color.a = 1f / i;
-			_spriteRenderer.color = color;
-			yield return new WaitForSeconds(.2f);
-		}
 		Destroy(gameObject);
 	}
 }

@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 3
-  DashSpeed: 8
+  DashSpeed: 20
   Damage: 10
   Life: 5
 --- !u!1 &2679847188628359889
@@ -238,7 +238,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 305, y: 0}
+  m_Offset: {x: 307.36737, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -249,7 +249,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 392.7, y: 34}
+  m_Size: {x: 387.96527, y: 34}
   m_EdgeRadius: 0
 --- !u!50 &3373290138922292091
 Rigidbody2D:
