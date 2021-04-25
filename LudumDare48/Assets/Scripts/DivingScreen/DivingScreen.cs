@@ -44,7 +44,7 @@ public class DivingScreen : MonoBehaviour
     public void GetNextZone(int upOrDown)
     {
         currentZone += upOrDown;
-        RectTransform rt = (sectionsInOrder[currentZone].transform as RectTransform);
+        RectTransform rt = (generatedSections[currentZone].transform as RectTransform);
         WorldManager.Instance.SetPlayerSectionBounds(rt.position, new Vector2(rt.sizeDelta.x, rt.sizeDelta.y));
     }
 
@@ -62,5 +62,8 @@ public class DivingScreen : MonoBehaviour
             generatedSections.Add(newSection);
             prev = newSection.GetComponent<Section>();
         }
+
+        RectTransform rt = (generatedSections[currentZone].transform as RectTransform);
+        WorldManager.Instance.SetPlayerSectionBounds(rt.position, new Vector2(rt.sizeDelta.x, rt.sizeDelta.y));
     }
 }

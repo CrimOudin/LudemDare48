@@ -374,7 +374,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4876085121139661287
 RectTransform:
   m_ObjectHideFlags: 0
@@ -544,3 +544,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   top: {fileID: 4876085121003373560}
   bottom: {fileID: 4876085121074732310}
+  enemySpawnLocations:
+  - {fileID: 4876085120186395005}
+  - {fileID: 4876085121097748136}
+  - {fileID: 4876085120581459857}
+  - {fileID: 4876085120356628733}
+  treasureSpawnLocations:
+  - {fileID: 4876085121139238470}
+  - {fileID: 4876085120293004149}

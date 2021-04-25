@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &5056348316226373740
 RectTransform:
   m_ObjectHideFlags: 0
@@ -223,6 +223,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   top: {fileID: 5056348317073907248}
   bottom: {fileID: 5056348316891566161}
+  enemySpawnLocations:
+  - {fileID: 5056348317055097083}
+  - {fileID: 5056348317272661937}
+  - {fileID: 5056348316941905341}
+  - {fileID: 5056348317062680514}
+  - {fileID: 5056348318016521075}
+  - {fileID: 5056348316942772345}
+  - {fileID: 5056348317331538552}
+  - {fileID: 5056348316543007909}
+  - {fileID: 5056348316357435052}
+  - {fileID: 5056348316630163941}
+  - {fileID: 5056348318149038476}
+  treasureSpawnLocations:
+  - {fileID: 5056348318156400523}
+  - {fileID: 5056348317016452663}
+  - {fileID: 5056348317355794703}
+  - {fileID: 5056348316472770858}
+  - {fileID: 5056348317510881126}
 --- !u!1 &5056348316244066503
 GameObject:
   m_ObjectHideFlags: 0

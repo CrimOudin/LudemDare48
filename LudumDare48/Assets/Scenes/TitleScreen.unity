@@ -457,6 +457,78 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FadeWindow: {fileID: 290795068}
+  enemyInfo:
+  - myEnemies:
+    - enemyPrefab: {fileID: 3861999350749016922, guid: 61fc2c96a3a3e034f8467de27e3fb57e, type: 3}
+      percentSpawnChance: 40
+  - myEnemies:
+    - enemyPrefab: {fileID: 3861999350749016922, guid: 61fc2c96a3a3e034f8467de27e3fb57e, type: 3}
+      percentSpawnChance: 50
+    - enemyPrefab: {fileID: 6203987653785069155, guid: 6e2f5b255cef2384b9a28e816bd93c86, type: 3}
+      percentSpawnChance: 25
+  - myEnemies:
+    - enemyPrefab: {fileID: 3861999350749016922, guid: 61fc2c96a3a3e034f8467de27e3fb57e, type: 3}
+      percentSpawnChance: 20
+    - enemyPrefab: {fileID: 6203987653785069155, guid: 6e2f5b255cef2384b9a28e816bd93c86, type: 3}
+      percentSpawnChance: 20
+    - enemyPrefab: {fileID: 3739807742858810065, guid: df91c0f47b762e54bb70c0f5b508c656, type: 3}
+      percentSpawnChance: 20
+  - myEnemies:
+    - enemyPrefab: {fileID: 3861999350749016922, guid: 61fc2c96a3a3e034f8467de27e3fb57e, type: 3}
+      percentSpawnChance: 15
+    - enemyPrefab: {fileID: 6203987653785069155, guid: 6e2f5b255cef2384b9a28e816bd93c86, type: 3}
+      percentSpawnChance: 40
+    - enemyPrefab: {fileID: 3739807742858810065, guid: df91c0f47b762e54bb70c0f5b508c656, type: 3}
+      percentSpawnChance: 20
+    - enemyPrefab: {fileID: 1247835551695805886, guid: d7a150f4df430e0439b8efc0153ca11a, type: 3}
+      percentSpawnChance: 10
+  - myEnemies:
+    - enemyPrefab: {fileID: 3861999350749016922, guid: 61fc2c96a3a3e034f8467de27e3fb57e, type: 3}
+      percentSpawnChance: 10
+    - enemyPrefab: {fileID: 6203987653785069155, guid: 6e2f5b255cef2384b9a28e816bd93c86, type: 3}
+      percentSpawnChance: 20
+    - enemyPrefab: {fileID: 3739807742858810065, guid: df91c0f47b762e54bb70c0f5b508c656, type: 3}
+      percentSpawnChance: 20
+    - enemyPrefab: {fileID: 1247835551695805886, guid: d7a150f4df430e0439b8efc0153ca11a, type: 3}
+      percentSpawnChance: 30
+  - myEnemies: []
+  - myEnemies: []
+  - myEnemies: []
+  - myEnemies: []
+  - myEnemies: []
+  treasureInfo:
+  - myTreasures:
+    - treasurePrefab: {fileID: 8335715518692379923, guid: 1d6bc861b3e9b2143b463c60462344f3, type: 3}
+      percentSpawnChance: 100
+  - myTreasures:
+    - treasurePrefab: {fileID: 8335715518692379923, guid: 1d6bc861b3e9b2143b463c60462344f3, type: 3}
+      percentSpawnChance: 50
+  - myTreasures:
+    - treasurePrefab: {fileID: 0}
+      percentSpawnChance: 0
+  - myTreasures:
+    - treasurePrefab: {fileID: 0}
+      percentSpawnChance: 0
+  - myTreasures:
+    - treasurePrefab: {fileID: 0}
+      percentSpawnChance: 0
+  - myTreasures:
+    - treasurePrefab: {fileID: 0}
+      percentSpawnChance: 0
+  - myTreasures:
+    - treasurePrefab: {fileID: 0}
+      percentSpawnChance: 0
+  - myTreasures:
+    - treasurePrefab: {fileID: 0}
+      percentSpawnChance: 0
+  - myTreasures:
+    - treasurePrefab: {fileID: 0}
+      percentSpawnChance: 0
+  - myTreasures:
+    - treasurePrefab: {fileID: 0}
+      percentSpawnChance: 0
+  player: {fileID: 0}
+  mainGame: {fileID: 0}
 --- !u!224 &1924471640
 RectTransform:
   m_ObjectHideFlags: 0

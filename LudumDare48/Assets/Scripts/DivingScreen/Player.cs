@@ -99,22 +99,35 @@ public class Player : MonoBehaviour
 
     private void PotentiallyMoveCameraHorizontal()
     {
-        if (currentBounds.width <= 1280)
-            return;
-        else
-        {
-            if (transform.position.x < Camera.main.transform.position.x && Camera.main.transform.position.x > -(cameraXMovementTotal * 0.5f) + currentBounds.x ||
-               transform.position.x > Camera.main.transform.position.x && Camera.main.transform.position.x < +(cameraXMovementTotal * 0.5f) + currentBounds.x)
-            {
-                float xDiff = transform.position.x - Camera.main.transform.position.x;
-                if (Math.Abs(xDiff) < 10f)
-                    Camera.main.transform.SetPosition(x: transform.position.x);
-                else if (xDiff > 0)
-                    Camera.main.transform.SetPosition(x: Math.Min((cameraXMovementTotal * 0.5f) + currentBounds.x, Camera.main.transform.position.x + Time.deltaTime * 200));
-                else if (xDiff < 0)
-                    Camera.main.transform.SetPosition(x: Math.Max((-cameraXMovementTotal * 0.5f) + currentBounds.x, Camera.main.transform.position.x - Time.deltaTime * 200));
-            }
-        }
+        float targetx = (cameraXMovementTotal == 0 ? currentBounds.x : transform.position.x);
+        targetx = Math.Min((cameraXMovementTotal * 0.5f) + currentBounds.x, targetx);
+        targetx = Math.Max((-cameraXMovementTotal * 0.5f) + currentBounds.x, targetx);
+
+        float xDiff = targetx - Camera.main.transform.position.x;
+
+        if (Math.Abs(xDiff) < 10f)
+            Camera.main.transform.SetPosition(x: targetx);
+        else if (xDiff > 0)
+            Camera.main.transform.SetPosition(x: Math.Min((cameraXMovementTotal * 0.5f) + currentBounds.x, Camera.main.transform.position.x + Time.deltaTime * 200));
+        else if (xDiff < 0)
+            Camera.main.transform.SetPosition(x: Math.Max((-cameraXMovementTotal * 0.5f) + currentBounds.x, Camera.main.transform.position.x - Time.deltaTime * 200));
+
+        //if (currentBounds.width <= 1280)
+        //    return;
+        //else
+        //{
+        //    if (transform.position.x < Camera.main.transform.position.x && Camera.main.transform.position.x > -(cameraXMovementTotal * 0.5f) + currentBounds.x ||
+        //       transform.position.x > Camera.main.transform.position.x && Camera.main.transform.position.x < +(cameraXMovementTotal * 0.5f) + currentBounds.x)
+        //    {
+        //        float xDiff = transform.position.x - Camera.main.transform.position.x;
+        //        if (Math.Abs(xDiff) < 10f)
+        //            Camera.main.transform.SetPosition(x: transform.position.x);
+        //        else if (xDiff > 0)
+        //            Camera.main.transform.SetPosition(x: Math.Min((cameraXMovementTotal * 0.5f) + currentBounds.x, Camera.main.transform.position.x + Time.deltaTime * 200));
+        //        else if (xDiff < 0)
+        //            Camera.main.transform.SetPosition(x: Math.Max((-cameraXMovementTotal * 0.5f) + currentBounds.x, Camera.main.transform.position.x - Time.deltaTime * 200));
+        //    }
+        //}
     }
 
     public void SetCurrentAreaRect(Rect area)
