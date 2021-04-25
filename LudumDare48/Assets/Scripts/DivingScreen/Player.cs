@@ -10,6 +10,26 @@ public class Player : MonoBehaviour
     private float maxSpeed = 200;
     private float accelSpeed = 200;
 
+    private float speedBoostPerLevel = 50;
+    private float accelBoostPerLevel = 50;
+
+    private float Speed
+    {
+        get
+        {
+            return maxSpeed + ((WorldManager.Instance.finUpgrade - 1) * speedBoostPerLevel);
+        }
+    }
+
+    private float Accel
+    {
+        get
+        {
+            return accelSpeed + ((WorldManager.Instance.finUpgrade - 1) * accelBoostPerLevel);
+        }
+    }
+
+
     private float cameraXMovementTotal = 0;
     private Rect currentBounds;
 
@@ -30,22 +50,22 @@ public class Player : MonoBehaviour
         {
             //Accelerate in the direction the input is accelerating, then check to make sure you're not above the "acceleration" cap
             if (currentAcceleration.x > 0 && accel.x > 0 || currentAcceleration.x < 0 && accel.x < 0)
-                currentAcceleration.x += accel.x * Time.deltaTime * accelSpeed;
+                currentAcceleration.x += accel.x * Time.deltaTime * Accel;
             else
-                currentAcceleration.x += accel.x * Time.deltaTime * accelSpeed * 1.25f;
+                currentAcceleration.x += accel.x * Time.deltaTime * Accel * 1.25f;
 
-            if (currentAcceleration.x > maxSpeed)
-                currentAcceleration.x = maxSpeed;
-            else if (currentAcceleration.x < -maxSpeed)
-                currentAcceleration.x = -maxSpeed;
+            if (currentAcceleration.x > Speed)
+                currentAcceleration.x = Speed;
+            else if (currentAcceleration.x < -Speed)
+                currentAcceleration.x = -Speed;
         }
         else if (currentAcceleration.x != 0)
         {
             //Accelerate towards 0
             if (currentAcceleration.x > 0)
-                currentAcceleration.x -= (accelSpeed * Time.deltaTime * 0.75f);
+                currentAcceleration.x -= (Accel * Time.deltaTime * 0.75f);
             if (currentAcceleration.x < 0)
-                currentAcceleration.x += (accelSpeed * Time.deltaTime * 0.75f);
+                currentAcceleration.x += (Accel * Time.deltaTime * 0.75f);
 
             if (Math.Abs(currentAcceleration.x) < 0.05f)
                 currentAcceleration.x = 0;
@@ -55,22 +75,22 @@ public class Player : MonoBehaviour
         {
             //Accelerate in the direction the input is accelerating, then check to make sure you're not above the "acceleration" cap
             if (currentAcceleration.y > 0 && accel.y > 0 || currentAcceleration.y < 0 && accel.y < 0)
-                currentAcceleration.y += accel.y * Time.deltaTime * accelSpeed;
+                currentAcceleration.y += accel.y * Time.deltaTime * Accel;
             else
-                currentAcceleration.y += accel.y * Time.deltaTime * accelSpeed * 1.25f;
+                currentAcceleration.y += accel.y * Time.deltaTime * Accel * 1.25f;
 
-            if (currentAcceleration.y > maxSpeed)
-                currentAcceleration.y = maxSpeed;
-            else if (currentAcceleration.y < -maxSpeed)
-                currentAcceleration.y = -maxSpeed;
+            if (currentAcceleration.y > Speed)
+                currentAcceleration.y = Speed;
+            else if (currentAcceleration.y < -Speed)
+                currentAcceleration.y = -Speed;
         }
         else
         {
             //Accelerate towards 0
             if (currentAcceleration.y > 0)
-                currentAcceleration.y -= (accelSpeed * Time.deltaTime * 0.75f);
+                currentAcceleration.y -= (Accel * Time.deltaTime * 0.75f);
             if (currentAcceleration.y < 0)
-                currentAcceleration.y += (accelSpeed * Time.deltaTime * 0.75f);
+                currentAcceleration.y += (Accel * Time.deltaTime * 0.75f);
 
             if (Math.Abs(currentAcceleration.y) < 0.05f)
                 currentAcceleration.y = 0;
