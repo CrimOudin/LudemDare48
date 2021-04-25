@@ -8,7 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1247835551695805875}
+  - component: {fileID: 1128998319888185431}
   - component: {fileID: 1247835551695805884}
   - component: {fileID: 1247835551695805874}
   - component: {fileID: 1247835551695805885}
@@ -21,20 +21,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1247835551695805875
-Transform:
+--- !u!224 &1128998319888185431
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1247835551695805886}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.2200003, y: -0.13, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 3.404, y: -2.033}
+  m_SizeDelta: {x: 150, y: 90}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1247835551695805884
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -80,8 +85,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.24, y: 0.91}
+  m_DrawMode: 1
+  m_Size: {x: 224, y: 91}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -99,7 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c091ec20d903b8945a65e6eaf71ebd56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0.03
+  Speed: 20
 --- !u!95 &1247835551695805885
 Animator:
   serializedVersion: 3
@@ -132,18 +137,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.08994532, y: 0.025184691}
+  m_Offset: {x: 16.92398, y: -1.7852135}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 2.24, y: 0.91}
-    newSize: {x: 2.24, y: 0.91}
+    newSize: {x: 224, y: 91}
     adaptiveTilingThreshold: 0.5
-    drawMode: 0
+    drawMode: 1
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9881535, y: 0.45667577}
+  m_Size: {x: 184.2045, y: 49.0214}
   m_EdgeRadius: 0
 --- !u!50 &4823096196961420176
 Rigidbody2D:

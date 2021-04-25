@@ -5,18 +5,18 @@ using UnityEngine;
 public class GeneralFish : MonoBehaviour
 {
     public float Speed;
-    private SpriteRenderer _spriteRenderer;
+    private RectTransform _rectTransform;
 
     // Start is called before the first frame update
     void Start()
     {
-        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _rectTransform = GetComponent<RectTransform>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(_spriteRenderer.flipX)
+        if(_rectTransform.localScale.x < 0)
 		{
             //move Left
             transform.position = new Vector3(transform.position.x - Speed, transform.position.y);
@@ -35,8 +35,7 @@ public class GeneralFish : MonoBehaviour
         }
         else
         {
-            _spriteRenderer.flipX = !_spriteRenderer.flipX;
-
+            _rectTransform.localScale = new Vector3(_rectTransform.localScale.x * -1, _rectTransform.localScale.y, 1);
         }
     }
 
@@ -47,9 +46,8 @@ public class GeneralFish : MonoBehaviour
             //TODO: player takes dmage.
 		}
 		else
-		{
-            _spriteRenderer.flipX = !_spriteRenderer.flipX;
-
+        {
+            _rectTransform.localScale = new Vector3(_rectTransform.localScale.x * -1, _rectTransform.localScale.y, 1);
         }
 	}
 }

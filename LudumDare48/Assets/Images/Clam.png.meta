@@ -155,11 +155,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 82
-        width: 88
-        height: 42
-      alignment: 9
-      pivot: {x: 0.4756891, y: 0.05854543}
+        y: 96
+        width: 130
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -175,12 +175,12 @@ TextureImporter:
       name: Clam_1
       rect:
         serializedVersion: 2
-        x: 104
-        y: 81
-        width: 88
-        height: 45
-      alignment: 9
-      pivot: {x: 0.48784447, y: 0.056281533}
+        x: 130
+        y: 96
+        width: 130
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -196,12 +196,12 @@ TextureImporter:
       name: Clam_2
       rect:
         serializedVersion: 2
-        x: 208
-        y: 82
-        width: 88
-        height: 44
-      alignment: 9
-      pivot: {x: 0.4878443, y: 0.062404457}
+        x: 260
+        y: 96
+        width: 130
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -217,12 +217,12 @@ TextureImporter:
       name: Clam_3
       rect:
         serializedVersion: 2
-        x: 310
-        y: 82
-        width: 88
-        height: 44
-      alignment: 9
-      pivot: {x: 0.4878443, y: 0.062404457}
+        x: 390
+        y: 96
+        width: 130
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -238,12 +238,12 @@ TextureImporter:
       name: Clam_4
       rect:
         serializedVersion: 2
-        x: 414
-        y: 80
-        width: 90
-        height: 52
-      alignment: 9
-      pivot: {x: 0.49603814, y: 0.04058706}
+        x: 520
+        y: 96
+        width: 130
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -259,12 +259,12 @@ TextureImporter:
       name: Clam_5
       rect:
         serializedVersion: 2
-        x: 523
-        y: 82
-        width: 88
-        height: 62
-      alignment: 9
-      pivot: {x: 0.49189618, y: 0.05142532}
+        x: 650
+        y: 96
+        width: 130
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -282,10 +282,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 1
-        width: 88
-        height: 43
-      alignment: 9
-      pivot: {x: 0.47974092, y: 0.06881189}
+        width: 130
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -301,12 +301,12 @@ TextureImporter:
       name: Clam_7
       rect:
         serializedVersion: 2
-        x: 104
+        x: 130
         y: 1
-        width: 88
-        height: 44
-      alignment: 9
-      pivot: {x: 0.49189636, y: 0.07050793}
+        width: 130
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -322,12 +322,12 @@ TextureImporter:
       name: Clam_8
       rect:
         serializedVersion: 2
-        x: 208
-        y: 2
-        width: 88
-        height: 44
-      alignment: 9
-      pivot: {x: 0.49189618, y: 0.07050829}
+        x: 260
+        y: 1
+        width: 130
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -343,12 +343,12 @@ TextureImporter:
       name: Clam_9
       rect:
         serializedVersion: 2
-        x: 310
-        y: 2
-        width: 88
-        height: 44
-      alignment: 9
-      pivot: {x: 0.49189618, y: 0.054301046}
+        x: 390
+        y: 1
+        width: 130
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -364,12 +364,12 @@ TextureImporter:
       name: Clam_10
       rect:
         serializedVersion: 2
-        x: 414
-        y: 0
-        width: 90
-        height: 51
-      alignment: 9
-      pivot: {x: 0.49603814, y: 0.045561645}
+        x: 520
+        y: 1
+        width: 130
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -385,12 +385,12 @@ TextureImporter:
       name: Clam_11
       rect:
         serializedVersion: 2
-        x: 523
-        y: 2
-        width: 88
-        height: 62
-      alignment: 9
-      pivot: {x: 0.49189618, y: 0.034172464}
+        x: 650
+        y: 1
+        width: 130
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
