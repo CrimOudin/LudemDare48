@@ -31,6 +31,7 @@ public class WorldManager : MonoBehaviour
     internal int MaxHealth = 100;
     internal int Health = 100;
 
+    public List<LightInfo> lightLevelsPerUpgrade = new List<LightInfo>();
 
     private void Awake()
     {
@@ -65,13 +66,11 @@ public class WorldManager : MonoBehaviour
         }
         else
         {
-
-            if (upOrDown > 0)
-                LightSource.IncreaseDarkness();
-            else
-                LightSource.IncreaseLightness();
-
             mainGame.GetNextZone(upOrDown);
+            int test1 = mainGame.currentZone;
+            LightInfo test2 = lightLevelsPerUpgrade[lightUpgrade - 1];
+
+            LightSource.SetLightLevel(lightLevelsPerUpgrade[lightUpgrade - 1].lightLevelPerFloor[mainGame.currentZone]);
         }
     }
 
@@ -163,4 +162,10 @@ public class TreasureInfo
 {
     public GameObject treasurePrefab;
     public float percentSpawnChance;
+}
+
+[Serializable]
+public class LightInfo
+{
+    public List<int> lightLevelPerFloor;
 }
