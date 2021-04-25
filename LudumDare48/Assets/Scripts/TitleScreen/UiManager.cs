@@ -10,33 +10,31 @@ public class UiManager : MonoBehaviour
     public Text MoneyText;
     public Text HealthText;
 
-    private Player _player;
 
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            Instance._player = GameObject.FindGameObjectsWithTag("Player").First()?.GetComponent<Player>();
             DontDestroyOnLoad(gameObject);
         }
     }
 
     internal void UpdateMoney(int value)
 	{
-        _player.Dollars += value;
-        MoneyText.text = _player.Dollars.ToString();
+        WorldManager.Instance.Dollars += value;
+        MoneyText.text = WorldManager.Instance.Dollars.ToString();
 	}
 
 
     internal void AddHealth(int value)
     {
-        _player.Health += value;
-        HealthText.text = _player.Health.ToString();
+        WorldManager.Instance.Health += value;
+        HealthText.text = WorldManager.Instance.Health.ToString();
     }
     internal void SubtractHealth(int value)
     {
-        _player.Health -= value;
-        HealthText.text = _player.Health.ToString();
+        WorldManager.Instance.Health -= value;
+        HealthText.text = WorldManager.Instance.Health.ToString();
     }
 }

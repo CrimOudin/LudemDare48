@@ -25,6 +25,9 @@ public class WorldManager : MonoBehaviour
     [HideInInspector]
     public int finUpgrade = 0;
 
+    internal int Dollars = 0;
+    internal int Health = 100;
+
 
     private void Awake()
     {

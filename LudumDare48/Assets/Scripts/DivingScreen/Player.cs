@@ -10,9 +10,6 @@ public class Player : MonoBehaviour
     private float maxSpeed = 200;
     private float accelSpeed = 200;
 
-    internal int Dollars = 0;
-    internal int Health = 100;
-
     private float cameraXMovementTotal = 0;
     private Rect currentBounds;
 

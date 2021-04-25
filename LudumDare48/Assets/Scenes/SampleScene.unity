@@ -1609,6 +1609,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3739807741902040836, guid: df91c0f47b762e54bb70c0f5b508c656, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 49885710f116ef64a97e503eee54053a, type: 2}
     - target: {fileID: 3739807742858810065, guid: df91c0f47b762e54bb70c0f5b508c656, type: 3}
       propertyPath: m_Name
       value: Clam
@@ -1661,7 +1665,8 @@ PrefabInstance:
       propertyPath: Value
       value: 200
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3739807742858810067, guid: df91c0f47b762e54bb70c0f5b508c656, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: df91c0f47b762e54bb70c0f5b508c656, type: 3}
 --- !u!1001 &3861999352269087601
 PrefabInstance:
