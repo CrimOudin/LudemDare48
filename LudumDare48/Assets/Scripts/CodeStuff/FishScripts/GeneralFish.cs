@@ -8,7 +8,7 @@ public class GeneralFish : MonoBehaviour
     public int Damage;
     public int Life;
     private RectTransform _rectTransform;
-    private bool isDead = false;
+    private bool _isDead = false;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +19,7 @@ public class GeneralFish : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (!isDead)
+        if (!_isDead)
         {
             if (_rectTransform.localScale.x < 0)
             {
@@ -34,29 +34,22 @@ public class GeneralFish : MonoBehaviour
         }
 		else
         {
-            //move Right
+            //dead
             transform.position = new Vector3(transform.position.x, transform.position.y - 1);
         }
     }
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
-        if (collision.transform.CompareTag("Player"))
+        if (!_isDead)
         {
-            PlayerHit();
+            if (collision.transform.CompareTag("Player"))
+            {
+                PlayerHit();
+            }
+            _rectTransform.localScale = new Vector3(_rectTransform.localScale.x * -1, _rectTransform.localScale.y, 1);
         }
-        _rectTransform.localScale = new Vector3(_rectTransform.localScale.x * -1, _rectTransform.localScale.y, 1);
         
     }
-
-	void OnCollisionEnter2D(Collision2D collision)
-	{
-		if(collision.transform.CompareTag("Player"))
-		{
-            PlayerHit();
-        }
-        _rectTransform.localScale = new Vector3(_rectTransform.localScale.x * -1, _rectTransform.localScale.y, 1);
-        
-	}
 
     private void PlayerHit()
 	{
@@ -70,7 +63,7 @@ public class GeneralFish : MonoBehaviour
 
     IEnumerator Death()
     {
-        isDead = true;
+        _isDead = true;
         _rectTransform.localScale = new Vector3(_rectTransform.localScale.x, _rectTransform.localScale.y * -1, 1);
         yield return new WaitForSeconds(1f);
         Destroy(gameObject);
