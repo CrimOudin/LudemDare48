@@ -27,4 +27,16 @@ public class UiManager : MonoBehaviour
         _player.Dollars += value;
         MoneyText.text = _player.Dollars.ToString();
 	}
+
+
+    internal void AddHealth(int value)
+    {
+        _player.Health += value;
+        HealthText.text = _player.Health.ToString();
+    }
+    internal void SubtractHealth(int value)
+    {
+        _player.Health -= value;
+        HealthText.text = _player.Health.ToString();
+    }
 }
