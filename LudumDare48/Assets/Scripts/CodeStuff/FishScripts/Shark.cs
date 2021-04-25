@@ -2,44 +2,56 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GeneralFish : MonoBehaviour
+public class Shark : MonoBehaviour
 {
     public float Speed;
+    public float DashSpeed;
     public int Damage;
     public int Life;
     private RectTransform _rectTransform;
-    private bool isDead = false;
+    private Animator _animator;
+    private bool _isDead = false;
+    internal bool IsDashing = false;
+    private float _currentSpeed;
 
     // Start is called before the first frame update
     void Start()
     {
         _rectTransform = GetComponent<RectTransform>();
+        _currentSpeed = Speed;
+        _animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (!isDead)
+        if (!_isDead)
         {
             if (_rectTransform.localScale.x < 0)
             {
                 //move Left
-                transform.position = new Vector3(transform.position.x - Speed, transform.position.y);
+                transform.position = new Vector3(transform.position.x - _currentSpeed, transform.position.y);
             }
             else
             {
                 //move Right
-                transform.position = new Vector3(transform.position.x + Speed, transform.position.y);
+                transform.position = new Vector3(transform.position.x + _currentSpeed, transform.position.y);
             }
         }
 		else
         {
-            //move Right
+            //death
             transform.position = new Vector3(transform.position.x, transform.position.y - 1);
         }
     }
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
+        if (IsDashing)
+        {
+            _animator.speed = .5f;
+            IsDashing = false;
+            _currentSpeed = Speed;
+		}
         if (collision.transform.CompareTag("Player"))
         {
             PlayerHit();
@@ -47,16 +59,6 @@ public class GeneralFish : MonoBehaviour
         _rectTransform.localScale = new Vector3(_rectTransform.localScale.x * -1, _rectTransform.localScale.y, 1);
         
     }
-
-	void OnCollisionEnter2D(Collision2D collision)
-	{
-		if(collision.transform.CompareTag("Player"))
-		{
-            PlayerHit();
-        }
-        _rectTransform.localScale = new Vector3(_rectTransform.localScale.x * -1, _rectTransform.localScale.y, 1);
-        
-	}
 
     private void PlayerHit()
 	{
@@ -70,9 +72,17 @@ public class GeneralFish : MonoBehaviour
 
     IEnumerator Death()
     {
-        isDead = true;
+        _isDead = true;
         _rectTransform.localScale = new Vector3(_rectTransform.localScale.x, _rectTransform.localScale.y * -1, 1);
         yield return new WaitForSeconds(1f);
         Destroy(gameObject);
+    }
+    internal IEnumerator Dash()
+    {
+        IsDashing = true;
+        _currentSpeed = 0;
+        _animator.speed = 2;
+        yield return new WaitForSeconds(.5f);
+        _currentSpeed = DashSpeed;
     }
 }
