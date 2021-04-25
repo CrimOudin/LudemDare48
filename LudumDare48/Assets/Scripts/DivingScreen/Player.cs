@@ -32,11 +32,13 @@ public class Player : MonoBehaviour
     public bool hasControl = true;
 
     private float cameraXMovementTotal = 0;
+    private RectTransform _rectTransform;
     private Rect currentBounds;
 
     private void Awake()
     {
         WorldManager.Instance.player = this;
+        _rectTransform = GetComponent<RectTransform>();
         WorldManager.Instance.LightSource.canUpdate = true;
     }
 
@@ -44,6 +46,12 @@ public class Player : MonoBehaviour
     {
         if (hasControl)
         {
+            Vector2 accel = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+            if (accel.x < 0 && _rectTransform.localScale.x > 0)
+                _rectTransform.localScale = new Vector3(_rectTransform.localScale.x * -1, _rectTransform.localScale.y, 1);
+            else if (accel.x > 0 && _rectTransform.localScale.x < 0)
+                _rectTransform.localScale = new Vector3(_rectTransform.localScale.x * -1, _rectTransform.localScale.y, 1);
+
             Vector2 accel = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
             if (accel.x < 0)
                 GetComponent<SpriteRenderer>().flipX = true;
