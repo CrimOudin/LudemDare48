@@ -11,20 +11,22 @@ public class Player : MonoBehaviour
     private float accelSpeed = 200;
 
     private float cameraXMovementTotal = 0;
+    private RectTransform _rectTransform;
     private Rect currentBounds;
 
     private void Awake()
     {
         WorldManager.Instance.player = this;
+        _rectTransform = GetComponent<RectTransform>();
     }
 
     private void FixedUpdate()
     {
         Vector2 accel = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        if (accel.x < 0)
-            GetComponent<SpriteRenderer>().flipX = true;
-        else if (accel.x > 0)
-            GetComponent<SpriteRenderer>().flipX = false;
+        if (accel.x < 0 && _rectTransform.localScale.x > 0)
+            _rectTransform.localScale = new Vector3(_rectTransform.localScale.x * -1, _rectTransform.localScale.y, 1);
+        else if (accel.x > 0 && _rectTransform.localScale.x < 0)
+            _rectTransform.localScale = new Vector3(_rectTransform.localScale.x * -1, _rectTransform.localScale.y, 1);
 
         if (accel.x != 0)
         {
