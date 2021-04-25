@@ -19,6 +19,13 @@ public class UiManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
+
+        //Can delete.  For testing
+        if(WorldManager.Instance != null)
+        {
+            UpdateMoney(7250);
+            SubtractHealth(0);
+        }
     }
 
     internal void UpdateMoney(int value)
@@ -30,7 +37,7 @@ public class UiManager : MonoBehaviour
 
     internal void AddHealth(int value)
     {
-        WorldManager.Instance.Health += Math.Min(WorldManager.Instance.Health + value, WorldManager.Instance.MaxHealth);
+        WorldManager.Instance.Health = Math.Min(WorldManager.Instance.Health + value, WorldManager.Instance.MaxHealth);
         HealthText.text = WorldManager.Instance.Health.ToString();
     }
     internal void SubtractHealth(int value)

@@ -48,12 +48,7 @@ public class ThingToBuy : MonoBehaviour
         {
             UiManager.Instance.UpdateMoney(-(currentUpgradeLevel * 1000));
 
-            if (myUpgrade == ShopUpgrade.Hull)
-                WorldManager.Instance.hullUpgrade++;
-            else if (myUpgrade == ShopUpgrade.Fins)
-                WorldManager.Instance.finUpgrade++;
-            else if (myUpgrade == ShopUpgrade.Light)
-                WorldManager.Instance.lightUpgrade++;
+            WorldManager.Instance.Upgrade(myUpgrade);
 
             SetLevel();
         }

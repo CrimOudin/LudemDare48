@@ -41,7 +41,8 @@ public class WorldManager : MonoBehaviour
             hullUpgrade = 1;
             lightUpgrade = 1;
             finUpgrade = 1;
-            Dollars = 7250;
+            //Can delete.  For testing
+            UiManager.Instance?.UpdateMoney(7250);
         }
     }
 

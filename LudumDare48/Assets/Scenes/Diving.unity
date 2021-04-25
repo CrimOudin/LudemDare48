@@ -231,9 +231,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2048316928}
-  - {fileID: 797494401}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -258,6 +257,7 @@ MonoBehaviour:
   sectionPrefabs:
   - {fileID: 4876085121139661284, guid: 0d7afafc1e8875f499154b459b49b983, type: 3}
   - {fileID: 5056348316226373741, guid: ffe1ba456870a8742ac5e906f8fc670e, type: 3}
+  currentZone: 0
 --- !u!1 &797494400
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,8 +287,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 847072496}
-  m_Father: {fileID: 549954757}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &797494402
 MonoBehaviour:
@@ -592,6 +592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FadeWindow: {fileID: 2042466436}
+  LightSource: {fileID: 0}
   enemyInfo:
   - myEnemies:
     - enemyPrefab: {fileID: 3861999350749016922, guid: 61fc2c96a3a3e034f8467de27e3fb57e, type: 3}
