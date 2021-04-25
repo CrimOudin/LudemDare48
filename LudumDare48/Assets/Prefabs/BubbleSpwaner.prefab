@@ -44,13 +44,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bubble: {fileID: 3205971505150462538, guid: 435a7b34a92651248ac1c8e15acbb031, type: 3}
-  BubbleMinTime: 10
-  BubbleMaxTime: 20
+  BubbleMinTime: 5
+  BubbleMaxTime: 10
   MinBubbleAmount: 5
-  MinSpeed: 1
-  MaxSpeed: 3
-  MinFrequency: 5
-  MaxFrequency: 10
-  MinMagnitude: 0.1
-  MaxMagnitude: 0.2
+  MinSpeed: 100
+  MaxSpeed: 200
+  MinFrequency: 10
+  MaxFrequency: 20
+  MinMagnitude: 1
+  MaxMagnitude: 3
   SpwanDelay: 1
