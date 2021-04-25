@@ -9,6 +9,17 @@ public class WorldManager : MonoBehaviour
     public static WorldManager Instance;
     public GameObject FadeWindow;
 
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+    /*************************************************************************************************
+     * Functions for the main game
+     * **********************************************************************************************/
 
 
 
@@ -26,14 +37,14 @@ public class WorldManager : MonoBehaviour
      * Functions for the Title Screen
      * **********************************************************************************************/
 
-    public void Initialize()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-    }
+    //public void Initialize()
+    //{
+    //    if (Instance == null)
+    //    {
+    //        Instance = this;
+    //        DontDestroyOnLoad(gameObject);
+    //    }
+    //}
 
     public IEnumerator FadeScreen(bool fadeIn, Action endAction)
     {
