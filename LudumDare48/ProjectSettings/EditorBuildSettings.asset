@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Diving.unity
     guid: 3b8696fc148bd4544a57a3904464b1d3
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: 76cbd5cc3d855c042a9f439926bd29b3
   m_configObjects: {}

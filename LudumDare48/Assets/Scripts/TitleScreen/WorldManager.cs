@@ -8,6 +8,8 @@ public class WorldManager : MonoBehaviour
 {
     public static WorldManager Instance;
     public GameObject FadeWindow;
+    public Light LightSource;
+
 
     public List<EnemyDepthInfo> enemyInfo = new List<EnemyDepthInfo>();
     public List<TreasureDepthInfo> treasureInfo = new List<TreasureDepthInfo>();
@@ -35,7 +37,7 @@ public class WorldManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(transform.parent.gameObject);
             hullUpgrade = 1;
             lightUpgrade = 1;
             finUpgrade = 1;
@@ -54,7 +56,22 @@ public class WorldManager : MonoBehaviour
 
     public void GetNextZone(int upOrDown)
     {
-        mainGame.GetNextZone(upOrDown);
+        if (upOrDown < 0 && mainGame.currentZone == 0)
+        {
+            player.hasControl = false;
+            LightSource.canUpdate = false;
+            StartCoroutine(Instance.FadeScreen(false, () => { SceneManager.LoadScene(4); }));
+        }
+        else
+        {
+
+            if (upOrDown > 0)
+                LightSource.IncreaseDarkness();
+            else
+                LightSource.IncreaseLightness();
+
+            mainGame.GetNextZone(upOrDown);
+        }
     }
 
     public void Upgrade(ShopUpgrade type)

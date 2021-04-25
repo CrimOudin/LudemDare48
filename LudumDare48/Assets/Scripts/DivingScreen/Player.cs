@@ -29,6 +29,7 @@ public class Player : MonoBehaviour
         }
     }
 
+    public bool hasControl = true;
 
     private float cameraXMovementTotal = 0;
     private Rect currentBounds;
@@ -36,82 +37,90 @@ public class Player : MonoBehaviour
     private void Awake()
     {
         WorldManager.Instance.player = this;
+        WorldManager.Instance.LightSource.canUpdate = true;
     }
 
     private void FixedUpdate()
     {
-        Vector2 accel = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        if (accel.x < 0)
-            GetComponent<SpriteRenderer>().flipX = true;
-        else if (accel.x > 0)
-            GetComponent<SpriteRenderer>().flipX = false;
-
-        if (accel.x != 0)
+        if (hasControl)
         {
-            //Accelerate in the direction the input is accelerating, then check to make sure you're not above the "acceleration" cap
-            if (currentAcceleration.x > 0 && accel.x > 0 || currentAcceleration.x < 0 && accel.x < 0)
-                currentAcceleration.x += accel.x * Time.deltaTime * Accel;
+            Vector2 accel = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+            if (accel.x < 0)
+                GetComponent<SpriteRenderer>().flipX = true;
+            else if (accel.x > 0)
+                GetComponent<SpriteRenderer>().flipX = false;
+
+            if (accel.x != 0)
+            {
+                //Accelerate in the direction the input is accelerating, then check to make sure you're not above the "acceleration" cap
+                if (currentAcceleration.x > 0 && accel.x > 0 || currentAcceleration.x < 0 && accel.x < 0)
+                    currentAcceleration.x += accel.x * Time.deltaTime * Accel;
+                else
+                    currentAcceleration.x += accel.x * Time.deltaTime * Accel * 1.25f;
+
+                if (currentAcceleration.x > Speed)
+                    currentAcceleration.x = Speed;
+                else if (currentAcceleration.x < -Speed)
+                    currentAcceleration.x = -Speed;
+            }
+            else if (currentAcceleration.x != 0)
+            {
+                //Accelerate towards 0
+                if (currentAcceleration.x > 0)
+                    currentAcceleration.x -= (Accel * Time.deltaTime * 0.75f);
+                if (currentAcceleration.x < 0)
+                    currentAcceleration.x += (Accel * Time.deltaTime * 0.75f);
+
+                if (Math.Abs(currentAcceleration.x) < 0.05f)
+                    currentAcceleration.x = 0;
+            }
+
+            if (accel.y != 0)
+            {
+                //Accelerate in the direction the input is accelerating, then check to make sure you're not above the "acceleration" cap
+                if (currentAcceleration.y > 0 && accel.y > 0 || currentAcceleration.y < 0 && accel.y < 0)
+                    currentAcceleration.y += accel.y * Time.deltaTime * Accel;
+                else
+                    currentAcceleration.y += accel.y * Time.deltaTime * Accel * 1.25f;
+
+                if (currentAcceleration.y > Speed)
+                    currentAcceleration.y = Speed;
+                else if (currentAcceleration.y < -Speed)
+                    currentAcceleration.y = -Speed;
+            }
             else
-                currentAcceleration.x += accel.x * Time.deltaTime * Accel * 1.25f;
+            {
+                //Accelerate towards 0
+                if (currentAcceleration.y > 0)
+                    currentAcceleration.y -= (Accel * Time.deltaTime * 0.75f);
+                if (currentAcceleration.y < 0)
+                    currentAcceleration.y += (Accel * Time.deltaTime * 0.75f);
 
-            if (currentAcceleration.x > Speed)
-                currentAcceleration.x = Speed;
-            else if (currentAcceleration.x < -Speed)
-                currentAcceleration.x = -Speed;
-        }
-        else if (currentAcceleration.x != 0)
-        {
-            //Accelerate towards 0
-            if (currentAcceleration.x > 0)
-                currentAcceleration.x -= (Accel * Time.deltaTime * 0.75f);
-            if (currentAcceleration.x < 0)
-                currentAcceleration.x += (Accel * Time.deltaTime * 0.75f);
+                if (Math.Abs(currentAcceleration.y) < 0.05f)
+                    currentAcceleration.y = 0;
+            }
 
-            if (Math.Abs(currentAcceleration.x) < 0.05f)
-                currentAcceleration.x = 0;
-        }
+            GetComponent<Rigidbody2D>().MovePosition(transform.position + ((Vector3)currentAcceleration * Time.deltaTime));
 
-        if (accel.y != 0)
-        {
-            //Accelerate in the direction the input is accelerating, then check to make sure you're not above the "acceleration" cap
-            if (currentAcceleration.y > 0 && accel.y > 0 || currentAcceleration.y < 0 && accel.y < 0)
-                currentAcceleration.y += accel.y * Time.deltaTime * Accel;
-            else
-                currentAcceleration.y += accel.y * Time.deltaTime * Accel * 1.25f;
+            if (currentBounds.height > 0)
+            {
+                if (transform.position.y < currentBounds.y - currentBounds.height * 0.5f)
+                {
+                    WorldManager.Instance.GetNextZone(1);
+                }
+                else if (transform.position.y > currentBounds.y + currentBounds.height * 0.5f)
+                {
+                    WorldManager.Instance.GetNextZone(-1);
+                }
+            }
 
-            if (currentAcceleration.y > Speed)
-                currentAcceleration.y = Speed;
-            else if (currentAcceleration.y < -Speed)
-                currentAcceleration.y = -Speed;
+            Camera.main.transform.SetPosition(y: transform.position.y);
+            PotentiallyMoveCameraHorizontal();
         }
         else
         {
-            //Accelerate towards 0
-            if (currentAcceleration.y > 0)
-                currentAcceleration.y -= (Accel * Time.deltaTime * 0.75f);
-            if (currentAcceleration.y < 0)
-                currentAcceleration.y += (Accel * Time.deltaTime * 0.75f);
-
-            if (Math.Abs(currentAcceleration.y) < 0.05f)
-                currentAcceleration.y = 0;
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         }
-
-        GetComponent<Rigidbody2D>().MovePosition(transform.position + ((Vector3)currentAcceleration * Time.deltaTime));
-
-        if (currentBounds.height > 0)
-        {
-            if (transform.position.y < currentBounds.y - currentBounds.height * 0.5f)
-            {
-                WorldManager.Instance.GetNextZone(1);
-            }
-            else if (transform.position.y > currentBounds.y + currentBounds.height * 0.5f)
-            {
-                WorldManager.Instance.GetNextZone(-1);
-            }
-        }
-
-        Camera.main.transform.SetPosition(y: transform.position.y);
-        PotentiallyMoveCameraHorizontal();
     }
 
     private void PotentiallyMoveCameraHorizontal()

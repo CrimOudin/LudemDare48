@@ -9,7 +9,7 @@ public class DivingScreen : MonoBehaviour
 
     private List<int> mySections = new List<int>();
     private List<GameObject> generatedSections = new List<GameObject>();
-    private int currentZone = 0;
+    public int currentZone = 0;
 
     public void AssignSectionsToMe()
     {
