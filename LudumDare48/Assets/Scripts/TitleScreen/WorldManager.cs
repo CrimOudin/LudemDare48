@@ -9,6 +9,10 @@ public class WorldManager : MonoBehaviour
     public static WorldManager Instance;
     public GameObject FadeWindow;
 
+    //Doesn't exist on initial load so have the player assign itself when it loads in.
+    public Player player;
+    public DivingScreen mainGame;
+
     private void Awake()
     {
         if (Instance == null)
@@ -20,7 +24,15 @@ public class WorldManager : MonoBehaviour
     /*************************************************************************************************
      * Functions for the main game
      * **********************************************************************************************/
+    public void SetPlayerSectionBounds(Vector2 xy, Vector2 size)
+    {
+        player.SetCurrentAreaRect(new Rect() { height = size.y, width = size.x, x = xy.x, y = xy.y });
+    }
 
+    public void GetNextZone(int upOrDown)
+    {
+        mainGame.GetNextZone(upOrDown);
+    }
 
 
     /*************************************************************************************************
