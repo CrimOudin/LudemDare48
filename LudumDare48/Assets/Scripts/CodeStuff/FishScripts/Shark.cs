@@ -46,18 +46,20 @@ public class Shark : MonoBehaviour
     }
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
-        if (IsDashing)
+        if (!_isDead)
         {
-            _animator.speed = .5f;
-            IsDashing = false;
-            _currentSpeed = Speed;
-		}
-        if (collision.transform.CompareTag("Player"))
-        {
-            PlayerHit();
+            if (IsDashing)
+            {
+                _animator.speed = .5f;
+                IsDashing = false;
+                _currentSpeed = Speed;
+            }
+            if (collision.transform.CompareTag("Player"))
+            {
+                PlayerHit();
+            }
+            _rectTransform.localScale = new Vector3(_rectTransform.localScale.x * -1, _rectTransform.localScale.y, 1);
         }
-        _rectTransform.localScale = new Vector3(_rectTransform.localScale.x * -1, _rectTransform.localScale.y, 1);
-        
     }
 
     private void PlayerHit()
