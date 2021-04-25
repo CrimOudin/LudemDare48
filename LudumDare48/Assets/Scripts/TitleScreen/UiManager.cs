@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,7 +30,7 @@ public class UiManager : MonoBehaviour
 
     internal void AddHealth(int value)
     {
-        WorldManager.Instance.Health += value;
+        WorldManager.Instance.Health += Math.Min(value, WorldManager.Instance.MaxHealth);
         HealthText.text = WorldManager.Instance.Health.ToString();
     }
     internal void SubtractHealth(int value)

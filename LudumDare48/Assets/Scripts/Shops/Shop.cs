@@ -76,12 +76,12 @@ public class Shop : MonoBehaviour
     {
         if (toBuy.myUpgrade == ShopUpgrade.Exit)
             Leave();
-        else if (toBuy.myUpgrade == ShopUpgrade.Fins)
-            TryBuyFins();
-        else if (toBuy.myUpgrade == ShopUpgrade.Hull)
-            TryBuyHull();
-        else if (toBuy.myUpgrade == ShopUpgrade.Light)
-            TryBuyLight();
+        else
+        {
+            toBuy.TryToBuy();
+            foreach (ThingToBuy ttb in thingsToBuy)
+                ttb.SetLevel();
+        }
     }
 
     public void Leave()
@@ -95,25 +95,6 @@ public class Shop : MonoBehaviour
             }));
         }));
     }
-
-    public void TryBuyHull()
-    {
-
-    }
-
-    public void TryBuyFins()
-    {
-
-    }
-
-    public void TryBuyLight()
-    {
-
-    }
-
-
-
-
 
     public void ShowShop()
     {

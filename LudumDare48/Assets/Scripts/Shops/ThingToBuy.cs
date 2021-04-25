@@ -8,12 +8,13 @@ using static UnityEngine.UI.Button;
 public class ThingToBuy : MonoBehaviour
 {
     public ShopUpgrade myUpgrade;
-    public int currentUpgradeLevel = 0;
+    public int currentUpgradeLevel = 1;
 
     //Probably not going to be used
     public SpriteRenderer myImage;
     public Text DescriptionText;
     public Text CostText;
+    public Text LevelText;
 
     public void SetLevel()
     {
@@ -24,23 +25,38 @@ public class ThingToBuy : MonoBehaviour
         else if (myUpgrade == ShopUpgrade.Light)
             currentUpgradeLevel = WorldManager.Instance.lightUpgrade;
 
-        if (currentUpgradeLevel == 3)
+        if (currentUpgradeLevel == 4)
         {
             DescriptionText.text = Environment.NewLine + "Maxed out!!!";
             CostText.text = string.Empty;
+            LevelText.text = string.Empty;
         }
-        else
+        else if(myUpgrade != ShopUpgrade.Exit)
         {
+            LevelText.text = currentUpgradeLevel.ToString();
             CostText.text = "Cost: " + (currentUpgradeLevel * 1000).ToString();
+            bool canBuy = WorldManager.Instance.Dollars >= (currentUpgradeLevel * 1000);
+            CostText.color = (canBuy ? Color.white : Color.red);
         }
     }
 
-    public int TryToBuy()
+    public void TryToBuy()
     {
-        if (currentUpgradeLevel >= 3)
-            return -1;
-        else //if(WorldManager.Instance.)
-            return currentUpgradeLevel * 1000;
+        if (currentUpgradeLevel >= 4)
+            return;
+        else if(WorldManager.Instance.Dollars >= currentUpgradeLevel * 1000)
+        {
+            UiManager.Instance.UpdateMoney(-(currentUpgradeLevel * 1000));
+
+            if (myUpgrade == ShopUpgrade.Hull)
+                WorldManager.Instance.hullUpgrade++;
+            else if (myUpgrade == ShopUpgrade.Fins)
+                WorldManager.Instance.finUpgrade++;
+            else if (myUpgrade == ShopUpgrade.Light)
+                WorldManager.Instance.lightUpgrade++;
+
+            SetLevel();
+        }
     }
 }
 

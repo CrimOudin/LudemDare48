@@ -19,13 +19,14 @@ public class WorldManager : MonoBehaviour
     public DivingScreen mainGame;
 
     [HideInInspector]
-    public int hullUpgrade = 0;
+    public int hullUpgrade = 1;
     [HideInInspector]
-    public int lightUpgrade = 0;
+    public int lightUpgrade = 1;
     [HideInInspector]
-    public int finUpgrade = 0;
+    public int finUpgrade = 1;
 
     internal int Dollars = 0;
+    internal int MaxHealth = 100;
     internal int Health = 100;
 
 
@@ -35,8 +36,14 @@ public class WorldManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+            hullUpgrade = 1;
+            lightUpgrade = 1;
+            finUpgrade = 1;
+            Dollars = 7250;
         }
     }
+
+
     /*************************************************************************************************
      * Functions for the main game
      * **********************************************************************************************/
@@ -48,6 +55,20 @@ public class WorldManager : MonoBehaviour
     public void GetNextZone(int upOrDown)
     {
         mainGame.GetNextZone(upOrDown);
+    }
+
+    public void Upgrade(ShopUpgrade type)
+    {
+        if (type == ShopUpgrade.Hull)
+        {
+            hullUpgrade++;
+            MaxHealth += 100;
+            UiManager.Instance.AddHealth(100);
+        }
+        else if (type == ShopUpgrade.Fins)
+            finUpgrade++;
+        else if (type == ShopUpgrade.Light)
+            lightUpgrade++;
     }
 
 
