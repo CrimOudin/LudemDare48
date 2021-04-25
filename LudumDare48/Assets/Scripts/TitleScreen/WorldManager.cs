@@ -18,6 +18,14 @@ public class WorldManager : MonoBehaviour
     [HideInInspector]
     public DivingScreen mainGame;
 
+    [HideInInspector]
+    public int hullUpgrade = 0;
+    [HideInInspector]
+    public int lightUpgrade = 0;
+    [HideInInspector]
+    public int finUpgrade = 0;
+
+
     private void Awake()
     {
         if (Instance == null)
