@@ -9,8 +9,13 @@ public class WorldManager : MonoBehaviour
     public static WorldManager Instance;
     public GameObject FadeWindow;
 
+    public List<EnemyDepthInfo> enemyInfo = new List<EnemyDepthInfo>();
+    public List<TreasureDepthInfo> treasureInfo = new List<TreasureDepthInfo>();
+
     //Doesn't exist on initial load so have the player assign itself when it loads in.
+    [HideInInspector]
     public Player player;
+    [HideInInspector]
     public DivingScreen mainGame;
 
     private void Awake()
@@ -82,4 +87,30 @@ public class WorldManager : MonoBehaviour
 
 
 
+}
+
+[Serializable]
+public class EnemyDepthInfo
+{
+    public List<EnemyInfo> myEnemies;
+}
+
+[Serializable]
+public class EnemyInfo
+{
+    public GameObject enemyPrefab;
+    public float percentSpawnChance;
+}
+
+[Serializable]
+public class TreasureDepthInfo
+{
+    public List<TreasureInfo> myTreasures;
+}
+
+[Serializable]
+public class TreasureInfo
+{
+    public GameObject treasurePrefab;
+    public float percentSpawnChance;
 }

@@ -5,7 +5,10 @@ using UnityEngine;
 public class DivingScreen : MonoBehaviour
 {
     public List<Section> sectionsInOrder = new List<Section>(); //todo: probably switch to procedural generation, so have a list of prefabs.
+    public List<GameObject> sectionPrefabs = new List<GameObject>();
 
+    private List<int> mySections = new List<int>();
+    private List<GameObject> generatedSections = new List<GameObject>();
     private int currentZone = 0;
 
     public void AssignSectionsToMe()
@@ -29,7 +32,13 @@ public class DivingScreen : MonoBehaviour
     private void Awake()
     {
         WorldManager.Instance.mainGame = this;
-        StartCoroutine(WorldManager.Instance.FadeScreen(true, () => { AssignSectionsToMe(); }));
+
+        for (int i = 0; i < 10; i++)
+            mySections.Add(UnityEngine.Random.Range(0, sectionPrefabs.Count));
+
+        Generate();
+
+        StartCoroutine(WorldManager.Instance.FadeScreen(true, null));
     }
 
     public void GetNextZone(int upOrDown)
@@ -37,5 +46,21 @@ public class DivingScreen : MonoBehaviour
         currentZone += upOrDown;
         RectTransform rt = (sectionsInOrder[currentZone].transform as RectTransform);
         WorldManager.Instance.SetPlayerSectionBounds(rt.position, new Vector2(rt.sizeDelta.x, rt.sizeDelta.y));
+    }
+
+    public void Generate()
+    {
+        Section prev = null;
+        for (int i = 0; i < 10; i++) //todo: change based on how many sections you've "gotten farther than" - and adjust the "difficulty" of the sections accordingly.
+        {
+            GameObject newSection = Instantiate(sectionPrefabs[mySections[i]]);
+            newSection.transform.SetParent(transform);
+            newSection.transform.localScale = new Vector3(1, 1, 1);
+            newSection.transform.SetLocalPosition(z: -1);
+            newSection.GetComponent<Section>().SetOrder(i, prev == null ? new Vector3(0, 360, 0) : prev.bottom.position);
+
+            generatedSections.Add(newSection);
+            prev = newSection.GetComponent<Section>();
+        }
     }
 }
