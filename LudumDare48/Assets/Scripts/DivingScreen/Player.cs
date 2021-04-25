@@ -1,14 +1,17 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+
     private Vector2 currentAcceleration = new Vector2();
 
     private float maxSpeed = 200;
     private float accelSpeed = 200;
+
+    internal int Dollars = 0;
+    internal int Health = 100;
 
     private float cameraXMovementTotal = 0;
     private Rect currentBounds;
