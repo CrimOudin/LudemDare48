@@ -46,9 +46,12 @@ public class Clam : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
-        if (collision.transform.CompareTag("Player"))
+        if (WorldManager.Instance.player.Invulnerable == false)
         {
-            UiManager.Instance.SubtractHealth(Damage);
+            if (collision.transform.CompareTag("Player"))
+            {
+                UiManager.Instance.SubtractHealth(Damage);
+            }
         }
     }
 }
