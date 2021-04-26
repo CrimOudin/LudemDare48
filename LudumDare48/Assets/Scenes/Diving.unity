@@ -574,6 +574,7 @@ MonoBehaviour:
   - {fileID: 4876085121139661284, guid: 0d7afafc1e8875f499154b459b49b983, type: 3}
   - {fileID: 5056348316226373741, guid: ffe1ba456870a8742ac5e906f8fc670e, type: 3}
   - {fileID: 5056348316226373741, guid: 16885b0c4def0c749b3476f65c490f99, type: 3}
+  bossAreaPrefab: {fileID: 5056348316226373741, guid: f27665aa943806f48ba225539ae7d6e2, type: 3}
   currentZone: 0
 --- !u!1 &797494400
 GameObject:
