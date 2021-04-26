@@ -7,6 +7,7 @@ public class AnglerFish : MonoBehaviour
 {
 	public float DetectionRadius;
     public int Damage;
+	public GameObject DetectionPoint;
 	private SpriteRenderer _spriteRenderer;
 	private Animator _animator;
 	public GameObject BaitPearl;
@@ -21,7 +22,7 @@ public class AnglerFish : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-		if(Vector3.Distance(WorldManager.Instance.player.transform.position, transform.position) <= DetectionRadius)
+		if(Vector3.Distance(WorldManager.Instance.player.transform.position, DetectionPoint.transform.position) <= DetectionRadius)
 		{
 			if (_spriteRenderer.enabled == false)
 			{

@@ -130,7 +130,7 @@ TextureImporter:
       name: SS_Anglerfish_Bite_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 0
         width: 300
         height: 400
@@ -156,7 +156,7 @@ TextureImporter:
         width: 300
         height: 400
       alignment: 9
-      pivot: {x: 0.9, y: 0.5}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -177,7 +177,7 @@ TextureImporter:
         width: 300
         height: 400
       alignment: 9
-      pivot: {x: 0.9, y: 0.5}
+      pivot: {x: 0.7, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
