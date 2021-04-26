@@ -20,10 +20,8 @@ public class UiManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
 
-        //Can delete.  For testing
         if(WorldManager.Instance != null)
         {
-            UpdateMoney(7250);
             SubtractHealth(0);
         }
     }

@@ -36,8 +36,8 @@ public class ThingToBuy : MonoBehaviour
             else if (myUpgrade != ShopUpgrade.Exit)
             {
                 LevelText.text = currentUpgradeLevel.ToString();
-                CostText.text = "Cost: " + (currentUpgradeLevel * 1000).ToString();
-                bool canBuy = WorldManager.Instance.Dollars >= (currentUpgradeLevel * 1000);
+                CostText.text = "Cost: " + WorldManager.Instance.upgradeCosts[currentUpgradeLevel].ToString();
+                bool canBuy = WorldManager.Instance.Dollars >= WorldManager.Instance.upgradeCosts[currentUpgradeLevel];
                 CostText.color = (canBuy ? Color.white : Color.red);
             }
         }
@@ -66,9 +66,9 @@ public class ThingToBuy : MonoBehaviour
                 UiManager.Instance.AddHealth(50);
             }
         }
-        else if(WorldManager.Instance.Dollars >= currentUpgradeLevel * 1000)
+        else if(WorldManager.Instance.Dollars >= WorldManager.Instance.upgradeCosts[currentUpgradeLevel])
         {
-            UiManager.Instance.UpdateMoney(-(currentUpgradeLevel * 1000));
+            UiManager.Instance.UpdateMoney(-WorldManager.Instance.upgradeCosts[currentUpgradeLevel]);
 
             WorldManager.Instance.Upgrade(myUpgrade);
 

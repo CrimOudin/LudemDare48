@@ -32,9 +32,11 @@ public class WorldManager : MonoBehaviour
 	internal int MaxHealth = 100;
 	internal int Health = 100;
 
-	private int lowestFloor = 0;
+	public int lowestFloor = 0;
 	
 	public List<LightInfo> lightLevelsPerUpgrade = new List<LightInfo>();
+	public List<int> mySections = new List<int>(); //Set by divingScreen the first time it loads.  Pulled from this from each generation on.
+	internal List<int> upgradeCosts = new List<int>() { 100, 500, 1000, 2000 };
 
 	private void Awake()
 	{
@@ -52,8 +54,6 @@ public class WorldManager : MonoBehaviour
 			hullUpgrade = 1;
 			lightUpgrade = 1;
 			finUpgrade = 1;
-			//Can delete.  For testing
-			UiManager.Instance?.UpdateMoney(7250);
 		}
 	}
 
@@ -111,6 +111,9 @@ public class WorldManager : MonoBehaviour
 
     public void GetNextZone(int upOrDown)
     {
+		if (upOrDown + mainGame.currentZone > lowestFloor)
+			lowestFloor = upOrDown + mainGame.currentZone;
+
         if (upOrDown < 0 && mainGame.currentZone == 0)
         {
             player.hasControl = false;

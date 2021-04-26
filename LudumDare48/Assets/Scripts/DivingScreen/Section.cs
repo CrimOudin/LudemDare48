@@ -15,14 +15,14 @@ public class Section : MonoBehaviour
     public List<Transform> treasureSpawnLocations = new List<Transform>();
     private int myOrder;
 
-    public void SetOrder(int order, Vector3 topConnection)
+    public void SetOrder(int order, Vector3 topConnection, bool firstZone)
     {
         myOrder = order;
         transform.position = topConnection - top.localPosition;
-        PopulateBasedOnOrder();
+        PopulateBasedOnOrder(firstZone);
     }
 
-    public void PopulateBasedOnOrder()
+    public void PopulateBasedOnOrder(bool first)
     {
         EnemyDepthInfo enemies = WorldManager.Instance.enemyInfo[myOrder];
         EnemyDepthInfo floorEnemies = WorldManager.Instance.floorEnemies[myOrder];
@@ -48,6 +48,9 @@ public class Section : MonoBehaviour
         foreach (Transform t in floorEnemySpawnLocations)
         {
             float random = UnityEngine.Random.value * 100;
+            if (first)
+                random = 1;
+
             if (random <= floorEnemies.myEnemies.Sum(x => x.percentSpawnChance))
             {
                 float sum = 0;
@@ -66,6 +69,9 @@ public class Section : MonoBehaviour
         foreach (Transform t in treasureSpawnLocations)
         {
             float random = UnityEngine.Random.value * 100;
+            if (first)
+                random = 1;
+
             if (random <= treasures.myTreasures.Sum(x => x.percentSpawnChance))
             {
                 float sum = 0;
