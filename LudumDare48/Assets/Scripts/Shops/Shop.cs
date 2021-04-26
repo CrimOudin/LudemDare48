@@ -91,7 +91,7 @@ public class Shop : MonoBehaviour
         StartCoroutine(MoveTransformToPositionAtSpeed(fakeShip.transform, shipStart.position, 200, () => {
             StartCoroutine(WorldManager.Instance.FadeScreen(false, () =>
             {
-                SceneManager.LoadScene(3);
+                SceneManager.LoadScene(2);
             }));
         }));
     }

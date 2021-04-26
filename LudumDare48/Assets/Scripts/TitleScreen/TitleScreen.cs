@@ -18,7 +18,7 @@ public class TitleScreen : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         yield return WorldManager.Instance.FadeScreen(true, null);
         yield return new WaitForSeconds(1f);
-        yield return WorldManager.Instance.FadeScreen(false, () => { SceneManager.LoadScene(2); });
+        yield return WorldManager.Instance.FadeScreen(false, () => { SceneManager.LoadScene(1); });
         yield break;
     }
 }

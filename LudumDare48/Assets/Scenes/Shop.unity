@@ -1148,9 +1148,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Hull Upgrade
 
-    +100 Max HP
-
-    Max Diving Depth +2'
+    +100 Max HP'
 --- !u!222 &502927965
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1360,7 +1358,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e7f3f481a1ff81b4b8c23c816577f8e7, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.8
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2246,7 +2244,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 204872da75b70eb42922f6327cf8a301, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.6
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 1
   Mute: 0

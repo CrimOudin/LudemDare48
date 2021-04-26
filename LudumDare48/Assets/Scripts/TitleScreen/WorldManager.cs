@@ -103,7 +103,7 @@ public class WorldManager : MonoBehaviour
 	{
 		LightSource.SetLightLevel(-1);
 		LightSource.canUpdate = false;
-		StartCoroutine(Instance.FadeScreen(false, () => { SceneManager.LoadScene(5); }));
+		StartCoroutine(Instance.FadeScreen(false, () => { SceneManager.LoadScene(4); }));
 	}
 
 	/*************************************************************************************************
@@ -123,7 +123,7 @@ public class WorldManager : MonoBehaviour
         {
             player.hasControl = false;
             LightSource.canUpdate = false;
-            StartCoroutine(Instance.FadeScreen(false, () => { SceneManager.LoadScene(4); }));
+            StartCoroutine(Instance.FadeScreen(false, () => { SceneManager.LoadScene(3); }));
         }
         else
         {
@@ -162,7 +162,7 @@ public class WorldManager : MonoBehaviour
 	{
 		StartCoroutine(Instance.FadeScreen(false, () => 
 		{
-			SceneManager.LoadScene(3);
+			SceneManager.LoadScene(2);
 			ResetPlayerValues();
 		}));
 	}

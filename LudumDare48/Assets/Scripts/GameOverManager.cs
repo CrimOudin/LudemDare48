@@ -15,7 +15,7 @@ public class GameOverManager : MonoBehaviour
     {
         StartCoroutine(WorldManager.Instance.FadeScreen(false, () => 
         { 
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(1);
             Destroy(UiManager.Instance.gameObject);
             WorldManager.Instance.ResetPlayerValues();
         }));
