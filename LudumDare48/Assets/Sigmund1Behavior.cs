@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnglerFishBehavior : StateMachineBehaviour
+public class Sigmund1Behavior : StateMachineBehaviour
 {
 	// OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
 	//override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -19,32 +19,7 @@ public class AnglerFishBehavior : StateMachineBehaviour
 	// OnStateExit is called when a transition ends and the state machine finishes evaluating this state
 	override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 	{
-		var anglerFish = animator.gameObject.GetComponent<AnglerFish>();
-		if(anglerFish == null)
-		{
-			var bossAnglerFish = animator.gameObject.GetComponent<BossAnglerFish>();
-			if (!animator.GetBool("Bite"))
-			{
-				bossAnglerFish.FinishDisappearing();
-			}
-			else
-			{
-				bossAnglerFish.Finish();
-			}
-		}
-		else
-		{
-			if (!animator.GetBool("Bite"))
-			{
-				anglerFish.FinishDisappearing();
-			}
-			else
-			{
-				anglerFish.Finish();
-			}
-		}
-		
-		base.OnStateExit(animator, stateInfo, layerIndex);
+		animator.gameObject.GetComponent<Sigmund1>().Explode();
 	}
 
 	// OnStateMove is called right after Animator.OnAnimatorMove()
