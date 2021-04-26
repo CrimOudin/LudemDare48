@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damage: 50
-  Speed: 200
+  Speed: 150
   DetectionRadius: 250
   ExplosionRadius: 125
   ExplosionDelay: 2.5
