@@ -45,7 +45,7 @@ public class ThingToBuy : MonoBehaviour
         {
             bool canBuy = WorldManager.Instance.Dollars > 150;
             bool damaged = (WorldManager.Instance.Health < WorldManager.Instance.MaxHealth);
-            CostText.color = (canBuy || damaged ? Color.white : Color.red);
+            CostText.color = (canBuy && damaged ? Color.white : Color.red);
 
             if (!damaged)
                 DescriptionText.text = "At full health!";

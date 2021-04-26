@@ -65,6 +65,7 @@ public class BossAnglerFish : MonoBehaviour
 					_beginShowSelfSequence = true;
 					_timeTillAttackSequence = Time.time + ShowBeforeAttackSequenceTime;
 					_fightStarted = true;
+					WorldManager.Instance.SetBossMusic(true);
 				}
 			}
 			else if (startingUp || _beginShowSelfSequence == true && _startAttacking == false && Time.time >= _timeTillAttackSequence)

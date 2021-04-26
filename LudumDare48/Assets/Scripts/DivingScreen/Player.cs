@@ -195,4 +195,18 @@ public class Player : MonoBehaviour
         currentBounds = area;
         cameraXMovementTotal = Math.Max(0, area.width - 1280);
     }
+
+    public void ChangeRadioStation(bool toBossMusic)
+    {
+        if (toBossMusic)
+        {
+            transform.Find("Radio").GetComponent<AudioSource>().Stop(); //I hate this
+            transform.Find("BossRadio").GetComponent<AudioSource>().Play(); //I hate this
+        }
+        else
+        {
+            transform.Find("BossRadio").GetComponent<AudioSource>().Stop(); //I hate this
+            transform.Find("Radio").GetComponent<AudioSource>().Play(); //I hate this
+        }
+    }
 }
