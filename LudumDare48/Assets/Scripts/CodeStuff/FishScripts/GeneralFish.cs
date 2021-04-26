@@ -40,7 +40,7 @@ public class GeneralFish : MonoBehaviour
     }
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
-        if (!_isDead)
+        if (!_isDead && WorldManager.Instance.player.Invulnerable == false)
         {
             if (collision.transform.CompareTag("Player"))
             {

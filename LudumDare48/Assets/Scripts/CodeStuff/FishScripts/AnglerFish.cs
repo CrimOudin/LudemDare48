@@ -54,7 +54,7 @@ public class AnglerFish : MonoBehaviour
 	}
 	private void OnTriggerEnter2D(Collider2D collision)
     {
-		if (!_isFinished)
+		if (!_isFinished && WorldManager.Instance.player.Invulnerable == false)
 		{
 			if (collision.transform.CompareTag("Player"))
 			{
