@@ -590,6 +590,8 @@ MonoBehaviour:
   - myEnemies:
     - enemyPrefab: {fileID: 3861999350749016922, guid: 61fc2c96a3a3e034f8467de27e3fb57e, type: 3}
       percentSpawnChance: 40
+    - enemyPrefab: {fileID: 3739807742858810065, guid: df91c0f47b762e54bb70c0f5b508c656, type: 3}
+      percentSpawnChance: 60
   - myEnemies:
     - enemyPrefab: {fileID: 3861999350749016922, guid: 61fc2c96a3a3e034f8467de27e3fb57e, type: 3}
       percentSpawnChance: 50

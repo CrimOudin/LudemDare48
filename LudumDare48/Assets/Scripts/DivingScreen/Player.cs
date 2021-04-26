@@ -31,16 +31,21 @@ public class Player : MonoBehaviour
 
 
     public bool hasControl = true;
-
+    internal SpriteRenderer SpriteRenderer;
     private float cameraXMovementTotal = 0;
     private RectTransform _rectTransform;
     private Rect currentBounds;
+	internal bool Invulnerable;
 
-    private void Awake()
+	private void Awake()
     {
         WorldManager.Instance.player = this;
         _rectTransform = GetComponent<RectTransform>();
-        WorldManager.Instance.LightSource.canUpdate = true;
+        SpriteRenderer = GetComponent<SpriteRenderer>();
+        if (WorldManager.Instance.LightSource != null)
+        {
+            WorldManager.Instance.LightSource.canUpdate = true;
+        }
     }
 
     private void FixedUpdate()

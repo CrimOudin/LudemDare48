@@ -42,7 +42,18 @@ public class UiManager : MonoBehaviour
     }
     internal void SubtractHealth(int value)
     {
-        WorldManager.Instance.Health -= value;
-        HealthText.text = WorldManager.Instance.Health.ToString();
+        if (value > 0)
+        {
+            WorldManager.Instance.Health -= value;
+            HealthText.text = WorldManager.Instance.Health.ToString();
+            if (WorldManager.Instance.Health <= 0)
+            {
+                WorldManager.Instance.GameOver();
+            }
+			else
+			{
+                StartCoroutine(WorldManager.Instance.PlayerHit());
+            }
+        }
     }
 }
