@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac700844de0373d42a64a20d5946b67c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DetectionRadius: 250
+  DetectionRadius: 260
   Damage: 30
   BaitPearl: {fileID: 349119211584177885}
 --- !u!95 &8782062172288537580
@@ -274,6 +274,6 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 87.8, y: 4.1}
+  m_Offset: {x: -43.213783, y: 4.0999985}
   serializedVersion: 2
-  m_Radius: 62.66294
+  m_Radius: 74.33672
