@@ -41,7 +41,7 @@ public class Pickup : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.transform.CompareTag("Player") && WorldManager.Instance.player.Invulnerable == false)
+        if (collision.transform.CompareTag("Player"))
         {
             PickupObject();
         }
