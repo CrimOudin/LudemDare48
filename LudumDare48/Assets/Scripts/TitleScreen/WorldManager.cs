@@ -34,6 +34,8 @@ public class WorldManager : MonoBehaviour
 
     public List<LightInfo> lightLevelsPerUpgrade = new List<LightInfo>();
 
+    private int lowestFloor = 0;
+
     private void Awake()
     {
         if (Instance == null)
