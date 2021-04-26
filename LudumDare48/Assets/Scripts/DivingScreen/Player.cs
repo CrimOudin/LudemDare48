@@ -29,6 +29,7 @@ public class Player : MonoBehaviour
         }
     }
 
+
     public bool hasControl = true;
 
     private float cameraXMovementTotal = 0;

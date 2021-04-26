@@ -11,6 +11,7 @@ public class Section : MonoBehaviour
     public Transform bottom;
 
     public List<Transform> enemySpawnLocations = new List<Transform>();
+    public List<Transform> floorEnemySpawnLocations = new List<Transform>();
     public List<Transform> treasureSpawnLocations = new List<Transform>();
     private int myOrder;
 
@@ -24,6 +25,7 @@ public class Section : MonoBehaviour
     public void PopulateBasedOnOrder()
     {
         EnemyDepthInfo enemies = WorldManager.Instance.enemyInfo[myOrder];
+        EnemyDepthInfo floorEnemies = WorldManager.Instance.floorEnemies[myOrder];
         TreasureDepthInfo treasures = WorldManager.Instance.treasureInfo[myOrder];
 
         foreach(Transform t in enemySpawnLocations)
@@ -41,6 +43,23 @@ public class Section : MonoBehaviour
                     enemy.transform.position = t.position;
                     enemy.transform.SetLocalPosition(z: -1);
                 }    
+            }
+        }
+        foreach (Transform t in floorEnemySpawnLocations)
+        {
+            float random = UnityEngine.Random.value * 100;
+            if (random <= floorEnemies.myEnemies.Sum(x => x.percentSpawnChance))
+            {
+                float sum = 0;
+                EnemyInfo newEnemy = floorEnemies.myEnemies.TakeWhile(x => { var temp = sum; sum += x.percentSpawnChance; return temp < random; }).Last();
+                if (newEnemy != null)
+                {
+                    GameObject enemy = Instantiate(newEnemy.enemyPrefab);
+                    enemy.transform.SetParent(transform);
+                    enemy.transform.localScale = new Vector3(1, 1, 1);
+                    enemy.transform.position = t.position;
+                    enemy.transform.SetLocalPosition(z: -1);
+                }
             }
         }
 

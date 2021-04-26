@@ -12,6 +12,7 @@ public class WorldManager : MonoBehaviour
 
 
     public List<EnemyDepthInfo> enemyInfo = new List<EnemyDepthInfo>();
+    public List<EnemyDepthInfo> floorEnemies = new List<EnemyDepthInfo>();
     public List<TreasureDepthInfo> treasureInfo = new List<TreasureDepthInfo>();
 
     //Doesn't exist on initial load so have the player assign itself when it loads in.

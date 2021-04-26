@@ -257,6 +257,7 @@ MonoBehaviour:
   sectionPrefabs:
   - {fileID: 4876085121139661284, guid: 0d7afafc1e8875f499154b459b49b983, type: 3}
   - {fileID: 5056348316226373741, guid: ffe1ba456870a8742ac5e906f8fc670e, type: 3}
+  - {fileID: 5056348316226373741, guid: 16885b0c4def0c749b3476f65c490f99, type: 3}
   currentZone: 0
 --- !u!1 &797494400
 GameObject:
@@ -668,6 +669,7 @@ MonoBehaviour:
   hullUpgrade: 1
   lightUpgrade: 1
   finUpgrade: 1
+  lightLevelsPerUpgrade: []
 --- !u!224 &1482958343
 RectTransform:
   m_ObjectHideFlags: 0
