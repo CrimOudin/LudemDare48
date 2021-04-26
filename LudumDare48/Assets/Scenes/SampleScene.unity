@@ -268,13 +268,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FadeWindow: {fileID: 0}
+  LightSource: {fileID: 0}
   enemyInfo: []
+  floorEnemies: []
   treasureInfo: []
   player: {fileID: 1033079129}
   mainGame: {fileID: 0}
   hullUpgrade: 0
   lightUpgrade: 0
   finUpgrade: 0
+  lightLevelsPerUpgrade: []
 --- !u!4 &356393208
 Transform:
   m_ObjectHideFlags: 0
@@ -2297,11 +2300,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 705286287840483531, guid: 6e2f5b255cef2384b9a28e816bd93c86, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 160.47
+      value: 273
       objectReference: {fileID: 0}
     - target: {fileID: 705286287840483531, guid: 6e2f5b255cef2384b9a28e816bd93c86, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -118.58
+      value: 282
       objectReference: {fileID: 0}
     - target: {fileID: 705286287840483531, guid: 6e2f5b255cef2384b9a28e816bd93c86, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2314,6 +2317,14 @@ PrefabInstance:
     - target: {fileID: 705286287840483531, guid: 6e2f5b255cef2384b9a28e816bd93c86, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147364121467673715, guid: 6e2f5b255cef2384b9a28e816bd93c86, type: 3}
+      propertyPath: Speed
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147364121467673715, guid: 6e2f5b255cef2384b9a28e816bd93c86, type: 3}
+      propertyPath: ExplosionRadius
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 6203987653785069155, guid: 6e2f5b255cef2384b9a28e816bd93c86, type: 3}
       propertyPath: m_Name
@@ -2482,18 +2493,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2231018035344668004, guid: b934f17de7feb09479c41339a87612a5, type: 3}
-      propertyPath: m_Offset.x
-      value: 98.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 2231018035344668004, guid: b934f17de7feb09479c41339a87612a5, type: 3}
-      propertyPath: m_Offset.y
-      value: 14.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2231018035344668004, guid: b934f17de7feb09479c41339a87612a5, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8782062172288537581, guid: b934f17de7feb09479c41339a87612a5, type: 3}
       propertyPath: m_Name
       value: Anglerfish
