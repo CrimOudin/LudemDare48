@@ -204,8 +204,12 @@ public class WorldManager : MonoBehaviour
 		}
 	}
 
-
-
+	internal void Victory()
+	{
+		LightSource.SetLightLevel(-1);
+		LightSource.canUpdate = false;
+		StartCoroutine(Instance.FadeScreen(false, () => { SceneManager.LoadScene(6); }));
+	}
 }
 
 [Serializable]

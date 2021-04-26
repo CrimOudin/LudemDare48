@@ -239,5 +239,6 @@ public class BossAnglerFish : MonoBehaviour
 	internal void Finish()
 	{
 		Destroy(gameObject);
+		WorldManager.Instance.Victory();
 	}
 }
