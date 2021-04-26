@@ -30,14 +30,15 @@ public class Player : MonoBehaviour
     }
 
 
-    public bool hasControl = true;
+    internal bool hasControl = true;
     internal SpriteRenderer SpriteRenderer;
     private float cameraXMovementTotal = 0;
     private RectTransform _rectTransform;
     private Rect currentBounds;
-	internal bool Invulnerable;
+    internal bool Invulnerable;
+    private bool playingMoveSound = false;
 
-	private void Awake()
+    private void Awake()
     {
         WorldManager.Instance.player = this;
         _rectTransform = GetComponent<RectTransform>();
@@ -46,6 +47,27 @@ public class Player : MonoBehaviour
         {
             WorldManager.Instance.LightSource.canUpdate = true;
         }
+    }
+
+    private void Update()
+    {
+        if (hasControl)
+        {
+            bool isTryingToMove = Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0;
+            if (isTryingToMove && !playingMoveSound)
+            {
+                playingMoveSound = true;
+                GetComponent<AudioSource>().Play();
+            }
+            else if (!isTryingToMove && playingMoveSound)
+            {
+                playingMoveSound = false;
+                GetComponent<AudioSource>().Stop();
+            }
+        }
+        else
+            GetComponent<AudioSource>().Stop();
+
     }
 
     private void FixedUpdate()
@@ -108,7 +130,11 @@ public class Player : MonoBehaviour
                     currentAcceleration.y = 0;
             }
 
+
             GetComponent<Rigidbody2D>().MovePosition(transform.position + ((Vector3)currentAcceleration * Time.deltaTime));
+
+            if (currentAcceleration.y != 0)
+                UiManager.Instance.UpdateDepthMarker(transform.position.y, WorldManager.Instance.lowestYValue);
 
             if (currentBounds.height > 0)
             {

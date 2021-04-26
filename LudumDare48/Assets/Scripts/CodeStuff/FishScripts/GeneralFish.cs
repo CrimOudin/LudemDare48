@@ -53,6 +53,7 @@ public class GeneralFish : MonoBehaviour
 
     private void PlayerHit()
 	{
+        GetComponent<AudioSource>().Play();
         UiManager.Instance.SubtractHealth(Damage);
         Life--;
         if (Life <= 0)

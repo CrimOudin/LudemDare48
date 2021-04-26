@@ -32,11 +32,12 @@ public class WorldManager : MonoBehaviour
 	internal int MaxHealth = 100;
 	internal int Health = 100;
 
-	public int lowestFloor = 0;
+	internal int lowestFloor = 0;
+	internal float lowestYValue = 0;
 	
 	public List<LightInfo> lightLevelsPerUpgrade = new List<LightInfo>();
-	public List<int> mySections = new List<int>(); //Set by divingScreen the first time it loads.  Pulled from this from each generation on.
-	internal List<int> upgradeCosts = new List<int>() { 100, 500, 1000, 2000 };
+	internal List<int> mySections = new List<int>(); //Set by divingScreen the first time it loads.  Pulled from this from each generation on.
+	internal List<int> upgradeCosts = new List<int>() { 0, 200, 500, 1000, 2000 };
 
 	private void Awake()
 	{
@@ -87,8 +88,12 @@ public class WorldManager : MonoBehaviour
 		hullUpgrade = 1;
 		lightUpgrade = 1;
 		finUpgrade = 1;
+		mySections.Clear();
+		lowestFloor = 0;
+		lowestYValue = 0;
 		UiManager.Instance?.UpdateMoney(0);
 		UiManager.Instance?.AddHealth(0);
+		UiManager.Instance?.UpdateStartMarker(0);
 	}
 
 	/*************************************************************************************************

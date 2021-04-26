@@ -65,6 +65,7 @@ public class Shark : MonoBehaviour
     private void PlayerHit()
 	{
         UiManager.Instance.SubtractHealth(Damage);
+        GetComponent<AudioSource>().Play();
         Life--;
         if (Life <= 0)
         {

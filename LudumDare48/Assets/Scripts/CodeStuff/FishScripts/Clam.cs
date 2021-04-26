@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class Clam : MonoBehaviour
+public class Clam : Enemy
 {
     public float SnapCloseTime;
     public int Damage;
+    public Pickup MyTreasure;
 
     private Animator[] _animators;
     private Collider2D _collider;
@@ -26,6 +27,7 @@ public class Clam : MonoBehaviour
 		{
             _collider.enabled = true;
             _nextSnapTime = Time.time + SnapCloseTime;
+            GetComponent<AudioSource>().Play();
             foreach (var animator in _animators)
             {
                 animator.SetTrigger("SnapCloseT");
@@ -52,6 +54,21 @@ public class Clam : MonoBehaviour
             {
                 UiManager.Instance.SubtractHealth(Damage);
             }
+        }
+    }
+
+
+    public override void SetLevel(int level)
+    {
+        MyTreasure.SetValue(level);
+
+        if (level <= 3)
+        {
+            Damage = 25;
+        }
+        else if (level <= 6)
+        {
+            Damage = 40;
         }
     }
 }

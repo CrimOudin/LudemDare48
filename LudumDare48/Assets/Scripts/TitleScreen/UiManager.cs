@@ -11,6 +11,11 @@ public class UiManager : MonoBehaviour
     public Text MoneyText;
     public Text HealthText;
 
+    public GameObject StartMarker;
+    public GameObject DepthMarker;
+    public Transform HighestPosition;
+    public Transform LowestPosition;
+
 
     private void Awake()
     {
@@ -18,11 +23,15 @@ public class UiManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-        }
 
-        if(WorldManager.Instance != null)
+            if (WorldManager.Instance != null)
+            {
+                SubtractHealth(0);
+            }
+        }
+        else
         {
-            SubtractHealth(0);
+            Destroy(gameObject);
         }
     }
 
@@ -53,5 +62,19 @@ public class UiManager : MonoBehaviour
                 StartCoroutine(WorldManager.Instance.PlayerHit());
             }
         }
+    }
+
+
+    internal void UpdateDepthMarker(float playerY, float lowestY)
+    {
+        float totalDistance = LowestPosition.position.y - StartMarker.transform.position.y;
+        DepthMarker.transform.SetPosition(y: StartMarker.transform.position.y + (totalDistance * playerY / lowestY));
+    }
+
+    internal void UpdateStartMarker(int startLevel)
+    {
+        Vector2 diff = LowestPosition.position - HighestPosition.position;
+        StartMarker.transform.SetPosition(y: HighestPosition.position.y + (diff.y * startLevel * 0.1f));
+        DepthMarker.transform.SetPosition(y: StartMarker.transform.position.y);
     }
 }

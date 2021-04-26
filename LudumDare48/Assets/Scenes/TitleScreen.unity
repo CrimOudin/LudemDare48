@@ -588,8 +588,8 @@ MonoBehaviour:
   LightSource: {fileID: 1422510260}
   enemyInfo:
   - myEnemies:
-    - enemyPrefab: {fileID: 3861999350749016922, guid: 61fc2c96a3a3e034f8467de27e3fb57e, type: 3}
-      percentSpawnChance: 40
+    - enemyPrefab: {fileID: 6203987653785069155, guid: 6e2f5b255cef2384b9a28e816bd93c86, type: 3}
+      percentSpawnChance: 100
   - myEnemies:
     - enemyPrefab: {fileID: 3861999350749016922, guid: 61fc2c96a3a3e034f8467de27e3fb57e, type: 3}
       percentSpawnChance: 50
@@ -657,34 +657,34 @@ MonoBehaviour:
   treasureInfo:
   - myTreasures:
     - treasurePrefab: {fileID: 8335715518692379923, guid: 1d6bc861b3e9b2143b463c60462344f3, type: 3}
+      percentSpawnChance: 70
+  - myTreasures:
+    - treasurePrefab: {fileID: 8335715518692379923, guid: 1d6bc861b3e9b2143b463c60462344f3, type: 3}
+      percentSpawnChance: 70
+  - myTreasures:
+    - treasurePrefab: {fileID: 8335715518692379923, guid: 1d6bc861b3e9b2143b463c60462344f3, type: 3}
+      percentSpawnChance: 70
+  - myTreasures:
+    - treasurePrefab: {fileID: 8335715518692379923, guid: 1d6bc861b3e9b2143b463c60462344f3, type: 3}
+      percentSpawnChance: 80
+  - myTreasures:
+    - treasurePrefab: {fileID: 8335715518692379923, guid: 1d6bc861b3e9b2143b463c60462344f3, type: 3}
+      percentSpawnChance: 80
+  - myTreasures:
+    - treasurePrefab: {fileID: 8335715518692379923, guid: 1d6bc861b3e9b2143b463c60462344f3, type: 3}
+      percentSpawnChance: 80
+  - myTreasures:
+    - treasurePrefab: {fileID: 8335715518692379923, guid: 1d6bc861b3e9b2143b463c60462344f3, type: 3}
+      percentSpawnChance: 90
+  - myTreasures:
+    - treasurePrefab: {fileID: 8335715518692379923, guid: 1d6bc861b3e9b2143b463c60462344f3, type: 3}
+      percentSpawnChance: 90
+  - myTreasures:
+    - treasurePrefab: {fileID: 8335715518692379923, guid: 1d6bc861b3e9b2143b463c60462344f3, type: 3}
       percentSpawnChance: 100
   - myTreasures:
     - treasurePrefab: {fileID: 8335715518692379923, guid: 1d6bc861b3e9b2143b463c60462344f3, type: 3}
-      percentSpawnChance: 50
-  - myTreasures:
-    - treasurePrefab: {fileID: 0}
-      percentSpawnChance: 0
-  - myTreasures:
-    - treasurePrefab: {fileID: 0}
-      percentSpawnChance: 0
-  - myTreasures:
-    - treasurePrefab: {fileID: 0}
-      percentSpawnChance: 0
-  - myTreasures:
-    - treasurePrefab: {fileID: 0}
-      percentSpawnChance: 0
-  - myTreasures:
-    - treasurePrefab: {fileID: 0}
-      percentSpawnChance: 0
-  - myTreasures:
-    - treasurePrefab: {fileID: 0}
-      percentSpawnChance: 0
-  - myTreasures:
-    - treasurePrefab: {fileID: 0}
-      percentSpawnChance: 0
-  - myTreasures:
-    - treasurePrefab: {fileID: 0}
-      percentSpawnChance: 0
+      percentSpawnChance: 100
   player: {fileID: 0}
   mainGame: {fileID: 0}
   hullUpgrade: 1

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnglerFish : MonoBehaviour
+public class AnglerFish : Enemy
 {
 	public float DetectionRadius;
     public int Damage;
@@ -68,5 +68,29 @@ public class AnglerFish : MonoBehaviour
 	internal void Finish()
 	{
 		Destroy(gameObject);
+	}
+
+    public override void SetLevel(int level)
+    {
+		if (level >= 6)
+		{
+			float rand = UnityEngine.Random.value;
+			if (rand > 0.66f)
+			{
+				BaitPearl.GetComponent<SpriteRenderer>().color = Color.cyan;
+			}
+			else if (rand > 0.33f)
+			{
+				BaitPearl.GetComponent<SpriteRenderer>().color = Color.red;
+			}
+		}
+		else if (level >= 3)
+		{
+			float rand = UnityEngine.Random.value;
+			if (rand > 0.33f)
+			{
+				BaitPearl.GetComponent<SpriteRenderer>().color = Color.red;
+			}
+		}
 	}
 }

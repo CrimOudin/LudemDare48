@@ -428,7 +428,6 @@ RectTransform:
   - {fileID: 4876085121074732310}
   - {fileID: 4876085120718351942}
   - {fileID: 4876085120366746260}
-  - {fileID: 9160178175196042679}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -593,6 +592,8 @@ MonoBehaviour:
   treasureSpawnLocations:
   - {fileID: 4876085121139238470}
   - {fileID: 4876085120293004149}
+  - {fileID: 3160350773608026800}
+  - {fileID: 1946609067444773728}
 --- !u!1 &4906922622111587376
 GameObject:
   m_ObjectHideFlags: 0

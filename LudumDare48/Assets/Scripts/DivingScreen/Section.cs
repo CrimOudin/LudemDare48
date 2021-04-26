@@ -42,6 +42,9 @@ public class Section : MonoBehaviour
                     enemy.transform.localScale = new Vector3(1, 1, 1);
                     enemy.transform.position = t.position;
                     enemy.transform.SetLocalPosition(z: -1);
+
+                    if (enemy.GetComponent<Enemy>() != null)
+                        enemy.GetComponent<Enemy>().SetLevel(myOrder);
                 }    
             }
         }
@@ -62,6 +65,9 @@ public class Section : MonoBehaviour
                     enemy.transform.localScale = new Vector3(1, 1, 1);
                     enemy.transform.position = t.position;
                     enemy.transform.SetLocalPosition(z: -1);
+
+                    if (enemy.GetComponent<Enemy>() != null)
+                        enemy.GetComponent<Enemy>().SetLevel(myOrder);
                 }
             }
         }
@@ -83,6 +89,9 @@ public class Section : MonoBehaviour
                     enemy.transform.localScale = new Vector3(1, 1, 1);
                     enemy.transform.position = t.position;
                     enemy.transform.SetLocalPosition(z: -1);
+
+                    if (enemy.GetComponent<Pickup>() != null)
+                        enemy.GetComponent<Pickup>().SetValue(myOrder);
                 }
             }
         }
