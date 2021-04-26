@@ -15,11 +15,14 @@ public class Section : MonoBehaviour
     public List<Transform> treasureSpawnLocations = new List<Transform>();
     private int myOrder;
 
-    public void SetOrder(int order, Vector3 topConnection, bool firstZone)
+    public void SetOrder(int order, Vector3 topConnection, bool firstZone, bool isBossZone = false)
     {
         myOrder = order;
         transform.position = topConnection - top.localPosition;
-        PopulateBasedOnOrder(firstZone);
+        if (isBossZone == false)
+        {
+            PopulateBasedOnOrder(firstZone);
+        }
     }
 
     public void PopulateBasedOnOrder(bool first)

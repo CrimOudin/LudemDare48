@@ -7,6 +7,7 @@ public class DivingScreen : MonoBehaviour
 {
     public List<Section> sectionsInOrder = new List<Section>(); //todo: probably switch to procedural generation, so have a list of prefabs.
     public List<GameObject> sectionPrefabs = new List<GameObject>();
+    public GameObject bossAreaPrefab;
 
     private List<GameObject> generatedSections = new List<GameObject>();
     [HideInInspector]
@@ -57,6 +58,12 @@ public class DivingScreen : MonoBehaviour
             if (i == 9)
                 WorldManager.Instance.lowestYValue = prev.gameObject.transform.position.y - (prev.gameObject.transform as RectTransform).sizeDelta.y * 0.5f;
         }
+        var bossSection = Instantiate(bossAreaPrefab);
+        bossSection.transform.SetParent(transform);
+        bossSection.transform.localScale = new Vector3(1, 1, 1);
+        bossSection.transform.SetLocalPosition(z: -1);
+        bossSection.GetComponent<Section>().SetOrder(10, prev == null ? new Vector3(0, 360, 0) : prev.bottom.position, false, true);
+        generatedSections.Add(bossSection);
 
         RectTransform rt = (generatedSections[currentZone].transform as RectTransform);
         WorldManager.Instance.SetPlayerSectionBounds(rt.position, new Vector2(rt.sizeDelta.x, rt.sizeDelta.y));
