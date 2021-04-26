@@ -44,7 +44,13 @@ public class ThingToBuy : MonoBehaviour
         else
         {
             bool canBuy = WorldManager.Instance.Dollars > 150;
-            CostText.color = (canBuy ? Color.white : Color.red);
+            bool damaged = (WorldManager.Instance.Health < WorldManager.Instance.MaxHealth);
+            CostText.color = (canBuy || damaged ? Color.white : Color.red);
+
+            if (!damaged)
+                DescriptionText.text = "At full health!";
+            else
+                DescriptionText.text = "Heal 50 HP";
         }
     }
 
@@ -52,7 +58,7 @@ public class ThingToBuy : MonoBehaviour
     {
         if (currentUpgradeLevel >= 4)
             return;
-        else if(myUpgrade == ShopUpgrade.Heal)
+        else if(myUpgrade == ShopUpgrade.Heal && (WorldManager.Instance.Health < WorldManager.Instance.MaxHealth))
         {
             if(WorldManager.Instance.Dollars >= 150)
             {

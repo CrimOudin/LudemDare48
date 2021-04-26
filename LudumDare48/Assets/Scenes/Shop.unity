@@ -1788,7 +1788,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1115805326
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2184,7 +2184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46231d1dbd4244d4aab0ca40eddc86c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myUpgrade: 2
+  myUpgrade: 4
   currentUpgradeLevel: 0
   myImage: {fileID: 1267019699}
   DescriptionText: {fileID: 631027414}
@@ -2275,6 +2275,7 @@ MonoBehaviour:
   - {fileID: 328613035}
   - {fileID: 1731969186}
   - {fileID: 384671559}
+  - {fileID: 1313694569}
   - {fileID: 911460312}
   selectionOptions:
   - {fileID: 328613033}
