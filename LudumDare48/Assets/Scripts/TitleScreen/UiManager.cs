@@ -23,7 +23,6 @@ public class UiManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-
             if (WorldManager.Instance != null)
             {
                 SubtractHealth(0);

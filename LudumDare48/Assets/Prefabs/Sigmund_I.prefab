@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DetectionRadius: 800
-  Damage: 1
+  Damage: 50
   DetectionPoint: {fileID: 1031780433763819060}
   BaitPearl: {fileID: 1031780435665224996}
   ShowBeforeAttackSequenceTime: 4

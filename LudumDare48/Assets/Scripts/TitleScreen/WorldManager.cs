@@ -131,7 +131,10 @@ public class WorldManager : MonoBehaviour
             int test1 = mainGame.currentZone;
             LightInfo test2 = lightLevelsPerUpgrade[lightUpgrade - 1];
 
-            LightSource.SetLightLevel(lightLevelsPerUpgrade[lightUpgrade - 1].lightLevelPerFloor[mainGame.currentZone]);
+			if (lightLevelsPerUpgrade.Count < lightUpgrade - 1 && lightLevelsPerUpgrade[lightUpgrade - 1].lightLevelPerFloor.Count < mainGame.currentZone)
+			{
+				LightSource.SetLightLevel(lightLevelsPerUpgrade[lightUpgrade - 1].lightLevelPerFloor[mainGame.currentZone]);
+			}
         }
     }
 
@@ -204,8 +207,12 @@ public class WorldManager : MonoBehaviour
 		}
 	}
 
-
-
+	internal void Victory()
+	{
+		LightSource.SetLightLevel(-1);
+		LightSource.canUpdate = false;
+		StartCoroutine(Instance.FadeScreen(false, () => { SceneManager.LoadScene(5); }));
+	}
 }
 
 [Serializable]

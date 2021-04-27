@@ -11,7 +11,6 @@ public class BossAnglerFish : MonoBehaviour
 	private Animator _animator;
 	public GameObject BaitPearl;
 	private bool _isFinished = false;
-	private bool disappering = false;
 	private Sigmund1 _sigmund;
 
 
@@ -42,6 +41,7 @@ public class BossAnglerFish : MonoBehaviour
 	private bool _afterSlamStarted = false;
 	private bool _fightStarted = false;
 	private bool _endSequenceActive = false;
+	private bool _bossMusicStarted = false;
 
 	private void Start()
 	{
@@ -65,7 +65,12 @@ public class BossAnglerFish : MonoBehaviour
 					_beginShowSelfSequence = true;
 					_timeTillAttackSequence = Time.time + ShowBeforeAttackSequenceTime;
 					_fightStarted = true;
-					WorldManager.Instance.SetBossMusic(true);
+					if (_bossMusicStarted == false)
+					{
+						WorldManager.Instance.LightSource.SetLightLevel(1);
+						_bossMusicStarted = true;
+						WorldManager.Instance.SetBossMusic(true);
+					}
 				}
 			}
 			else if (startingUp || _beginShowSelfSequence == true && _startAttacking == false && Time.time >= _timeTillAttackSequence)
@@ -173,7 +178,6 @@ public class BossAnglerFish : MonoBehaviour
 	{
 		_animator.SetBool("Appeared", false);
 		_animator.ResetTrigger("Appear");
-		disappering = true;
 		_animator.ResetTrigger("Disappear");
 		_animator.SetTrigger("Disappear");
 	}
@@ -181,7 +185,6 @@ public class BossAnglerFish : MonoBehaviour
 	internal void FinishDisappearing()
 	{
 		_animator.ResetTrigger("Disappear");
-		disappering = false;
 		_spriteRenderer.enabled = false;
 		if (startingUp == false)
 		{
@@ -190,6 +193,7 @@ public class BossAnglerFish : MonoBehaviour
 		startingUp = false;
 		if(_endSequenceActive)
 		{
+			WorldManager.Instance.Victory();
 			Destroy(transform.parent.gameObject);
 		}
 	}
