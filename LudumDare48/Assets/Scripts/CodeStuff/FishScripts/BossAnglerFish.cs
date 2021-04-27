@@ -193,6 +193,7 @@ public class BossAnglerFish : MonoBehaviour
 		startingUp = false;
 		if(_endSequenceActive)
 		{
+			WorldManager.Instance.Victory();
 			Destroy(transform.parent.gameObject);
 		}
 	}
@@ -241,7 +242,6 @@ public class BossAnglerFish : MonoBehaviour
 
 	internal void Finish()
 	{
-		WorldManager.Instance.Victory();
 		Destroy(gameObject);
 	}
 }
