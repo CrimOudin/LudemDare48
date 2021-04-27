@@ -10,7 +10,8 @@ public class TitleScreen : MonoBehaviour
     void Awake()
     {
         //manager.Initialize();
-        StartCoroutine(DelayThenFadeInThenWaitThenFadeOut());
+        SceneManager.LoadScene(1);
+        //StartCoroutine(DelayThenFadeInThenWaitThenFadeOut());
     }
 
     private IEnumerator DelayThenFadeInThenWaitThenFadeOut()

@@ -546,7 +546,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e283aac4168bb7242b22f40d69f8f35c, type: 3}
-  m_Color: {r: 1, g: 0.49395823, b: 0.08018869, a: 1}
+  m_Color: {r: 0.8962264, g: 0.60614914, b: 0.36779106, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -845,7 +845,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: LD48
+  m_Text: "In Search of \nSigmund I"
 --- !u!222 &1411618715
 CanvasRenderer:
   m_ObjectHideFlags: 0

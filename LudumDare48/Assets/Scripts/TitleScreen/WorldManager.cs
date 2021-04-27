@@ -37,7 +37,7 @@ public class WorldManager : MonoBehaviour
 	
 	public List<LightInfo> lightLevelsPerUpgrade = new List<LightInfo>();
 	internal List<int> mySections = new List<int>(); //Set by divingScreen the first time it loads.  Pulled from this from each generation on.
-	internal List<int> upgradeCosts = new List<int>() { 0, 200, 1000, 3000, 5000 };
+	internal List<int> upgradeCosts = new List<int>() { 0, 200, 700, 1200, 2000 };
 
 	private void Awake()
 	{
